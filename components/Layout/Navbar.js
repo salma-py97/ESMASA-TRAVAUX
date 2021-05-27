@@ -3,10 +3,10 @@ import Button from './Button'
 import ButtonStyles from '../../styles/Button.module.css'
 
 import Link from "next/link"
+import Image from 'next/image'
 
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
-import Image from 'next/image'
 
 import { useState, useEffect } from "react"
 
@@ -14,9 +14,9 @@ import { useState, useEffect } from "react"
 
 const Navbar = () => {
   const {
-		navbar,
+		navbar_nav,
 		navbar_container,
-		container,
+		nav_container,
 		navbar_logo,
 		nav_menu,
 		nav_item,
@@ -55,8 +55,8 @@ const Navbar = () => {
     <>
       <IconContext.Provider value={{color: "#fff"}}>
 
-        <div className={navbar}>
-          <div className={`${navbar_container} ${container}`}>
+        <div className={navbar_nav}>
+          <div className={`${navbar_container} ${nav_container}`}>
 
           <Link	href="/" className={`${navbar_logo}`} >
             <div className={logo}  onClick={() => {setClick(false)}}>
@@ -66,7 +66,7 @@ const Navbar = () => {
         width={50}
         height={50}
       />
-              <h3>
+              <h3 className="mt-2">
                 ESMASA TRAVAUX 
               </h3>
 

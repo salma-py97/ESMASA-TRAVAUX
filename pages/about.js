@@ -1,7 +1,13 @@
+
+
+import Homestyles from '../styles/Home.module.css'
+
+
+
 const About = () => {
+  const {hero_container, hero_btns, video} = Homestyles
   return (
     <div>
-      <h1>ABOUT ESMASA TRAVAUX</h1>
     </div>
   )
 }

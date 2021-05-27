@@ -9,6 +9,8 @@ const Meta = ({title, keywords, description}) => {
             <meta charSet='utf_8' />
             <link rel='icon' href='/favicon.ico' />
             <title>{title}</title>
+
+
         </Head>
 
     )
@@ -16,8 +18,8 @@ const Meta = ({title, keywords, description}) => {
 
 Meta.defaultProps = {
     title: 'Esmasa Travaux',
-    keywords: "web development, programming",
-    description: 'Get the Latest Newz in Web Dev'
+    keywords: "Esmasa, Esmasa Travaux, construction, génie civil, construction maroc, construction casa, LA RÉNOVATION DE BÂTIMENTS DURABLES, construction casablanca, génie civil maroc, génie civil casa, géni civil casablanca, Terrassement, Remblai, Béton de Fondation, Béton d’élévation, Maçonnerie, Toiture en Béton, Toiture en autoportante, Etanchéité, Revêtement des sols et murs, Menuiseries, Travaux Enduisage, motif et peintur, Travaux d’électricité intérie, Travaux des descentes d’eau pluviale, Plomberie sanitaire-Protection Incendie, Climatisation- VMC, VRD - Aménagements extérieur, Travaux d’aménagement des espaces ver, Travaux d’éclairage publ, Travaux d’assainissement pour drainage d’eaux pluviales",
+    description: 'LEADER DANS LA CONSTRUCTION ET LA RÉNOVATION DE BÂTIMENTS DURABLES'
 
 }
 

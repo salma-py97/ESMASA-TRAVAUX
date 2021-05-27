@@ -8,19 +8,20 @@
   cursor: pointer;
   white-space: nowrap;
   font-size: 1.2rem;
+  margin: 10px;
 }
 
 .btn__primary {
-  background-color: var(--primary);
+  background-color: var(--primo);
   color: #242424;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--primo);
 }
 
 .btn__outline {
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--primo);
   transition: all .3s ease-out;
 }
 
@@ -58,6 +59,13 @@
   color: #242424;
 }
 
+.btn__primary:hover {
+  transition: all .3s ease-out;
+  background-color: #f00946;
+  color: #fff;
+  border: 0;
+}
+
 .btn__wide:hover {
   color: #fff;
   background-color: #f00946;
@@ -74,12 +82,12 @@
   color: #fff;
   border: none;
 }
-.primary {
+.primo {
   background-color: #242424;
   color: #fff;
   border: none;
 }
-.primary:hover {
+.primo:hover {
   background-color: #fff;
   color: #242424;
   border: none;
