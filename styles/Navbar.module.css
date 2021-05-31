@@ -173,6 +173,9 @@
       /* border: 3px solid red; */
       /* margin-bottom: 1rem; */
     }
+    .close_icon:hover {
+      color: #f00946;
+    }
     
     .nav_btn {
       display: flex;

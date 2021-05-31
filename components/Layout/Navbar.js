@@ -24,7 +24,8 @@ const Navbar = () => {
     nav_btn,
 		menu_icon,
     active,
-    logo
+    logo,
+    close_icon
 	} = NavStyles
 
   const {btn,
@@ -35,6 +36,7 @@ const Navbar = () => {
 
 	const [click, setClick] = useState(false)
   const [button, setButton] = useState(true)
+  const [isRed, setIsRed] = useState(false)
 
   const showButton = () => {
     if (window.innerWidth > 960) {
@@ -73,13 +75,13 @@ const Navbar = () => {
             </div>
           </Link>
           <div className={menu_icon} onClick={() => setClick(!click)} >
-            {click ? <FaTimes /> : <FaBars />}{" "}
+            {click ? <FaTimes onMouseEnter={() => setIsRed(true)} onMouseLeave={() => setIsRed(false)} className={isRed ? `text-danger` : `text-white`}/> : <FaBars />}
 					</div>
 
           <ul className={click ? ` ${nav_menu} ${active}` : `${nav_menu}`}>
 						<li className={nav_item}>
 							<Link	href="/" >
-                <p className={nav_links} onClick={() => {setClick(false)}}>Home</p>
+                <p className={nav_links} onClick={() => {setClick(false)}}>Acceuil</p>
                 
 								
 							</Link>
@@ -92,7 +94,7 @@ const Navbar = () => {
 						</li>
 						<li className={nav_item}>
 							<Link	href="/products" >
-                <p className={nav_links} onClick={() => { setClick(false)	}}>Products</p>
+                <p className={nav_links} onClick={() => { setClick(false)	}}>Projets</p>
 								
 							</Link>
 						</li>
