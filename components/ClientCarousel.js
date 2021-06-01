@@ -33,13 +33,13 @@ function ControlledCarousel() {
 
           <div className="row d-flex align-items-center">
             <div className="col md-3">
-              <Image src="/images/ciment-du-maroc.jpg" alt="ESMASA TRAVAUX"
+              <Image src="https://i.ibb.co/fMnC75n/ciment-du-maroc.jpg" alt="ESMASA TRAVAUX"
                     width={1050}
                     height={500}/>
 
             </div>
             <div className="col md-3">
-              <Image src="/images/casa-prestations.jpg" alt="ESMASA TRAVAUX"
+              <Image src="https://i.ibb.co/gvXM4yp/casa-prestations.jpg"
                     width={1050}
                     height={500}/>
 
@@ -66,13 +66,13 @@ function ControlledCarousel() {
 
           <div className="row d-flex align-items-center" >
             <div className="col md-2">
-              <Image src="/images/akwagroup.jpg" alt="ESMASA TRAVAUX"
+              <Image src="https://i.ibb.co/TMBV2KP/Akwagroup.jpg" alt="ESMASA TRAVAUX"
                     width={1050}
                     height={500}/>
 
             </div>
             <div className="col md-2">
-              <Image src="/images/sonasid.jpg" alt="ESMASA TRAVAUX"
+              <Image src="https://i.ibb.co/LrNgX4g/sonasid.jpg" alt="ESMASA TRAVAUX"
                     width={1050}
                     height={500}/>
 
