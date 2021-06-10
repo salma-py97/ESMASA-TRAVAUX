@@ -17,9 +17,10 @@ const Choisir = () => {
   return (
     <div className={`py-5 d-flex justify-content-center align-items-center ${bg}`}>
       <div className={`container d-flex flex-column justify-content-center align-items-center ${content}`}>
-        <h3 className={`text-center mb-5 pt-5 text-warning ${title}`}>
+        <h3 className={`text-center mb-3 pt-5 text-warning ${title}`}>
           POURQUOI NOUS CHOISIR
         </h3>
+        <h4 className="text-center text-white mb-5">NOS POINTS FORTS</h4>
         <div className={`row d-flex justify-content-center align-items-start my-5 ${content}`}>
           <div className="col-md-6 mb-3">
             <div className={`row flex-md-row-reverse ${reason_div}`} >

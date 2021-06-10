@@ -1,0 +1,37 @@
+
+#slider1,
+#slider2,
+#slider3{
+    height: 40vh;
+    position: relative;
+}
+
+
+#silder-item{
+	height: 40vh;
+}
+
+#slider-row{
+	height: 40vh;
+}
+
+#prev{
+	position: absolute;
+    left: -3%;
+}
+#next{
+	position: absolute;
+    right: -3%;
+}
+.showcase-7-inner-2 img {
+	height: 200px;
+	width: 220px;
+}
+.showcase-7-inner-1 p {
+	font-size: 3rem;
+}
+.showcase-7-inner-3 p {
+	color: #478AC9; 
+	font-size: 1.5rem; 
+	font-weight: 700;
+}
