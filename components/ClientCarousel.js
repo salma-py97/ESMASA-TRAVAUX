@@ -12,16 +12,15 @@ function ControlledCarousel() {
     setIndex(selectedIndex);
   };
 
-  const {carousel_container, carousel_title, title, confiance, confiance_title, row} = carouselStyles
+  const {carousel_container, carousel_title, hr, confiance, confiance_title, row} = carouselStyles
 
 
   return (
     <div className="container">
       <div className={carousel_container}>
         <div className={carousel_title}>
-          <p className={title}>
-            Nos Clients
-          </p>
+          <h2 className="text-center">Nos Clients</h2>
+          <hr className={hr} />
         </div>
       
 

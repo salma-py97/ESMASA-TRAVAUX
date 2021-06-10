@@ -31,7 +31,7 @@ const HeroSection = () => {
         </p>
         <div className={hero_btns}>
           <Button className={`${btn} ${btn__outline} ${btn__large}`} >Contactez-nous</Button>
-          <Button className={`${btn} ${btn__primary} ${btn__large}`} >Contactez-nous</Button>
+          <Button className={`${btn} ${btn__primary} ${btn__large} px-5`} >Nos Projets</Button>
 
         </div>
       </div>

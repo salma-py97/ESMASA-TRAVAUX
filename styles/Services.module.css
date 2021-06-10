@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700&display=swap');
+
+
+.service{
+  font-family: 'Rubik', Arial, Helvetica, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.hr{
+  height: 3px;
+  background-color: var(--yellow);
+  width: 50%;
+}

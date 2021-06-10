@@ -159,7 +159,7 @@
   cursor: pointer;
 }
 .website_rights span:hover {
-  color: #f00946;
+  color: var(--danger);
 }
 
 @media screen and (max-width: 820px) {

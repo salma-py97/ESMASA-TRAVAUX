@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
   --primo: #fff;
+  /* --danger: #ffb400; */
+  --yellow: #ffb400;
+  --danger: #f00946;
 }
 
 
@@ -7,7 +12,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -17,6 +23,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
 
 
 

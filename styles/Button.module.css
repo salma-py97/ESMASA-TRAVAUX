@@ -14,14 +14,14 @@
 .btn__primary {
   background-color: var(--primo);
   color: #242424;
-  border: 1px solid var(--primo);
+  border: 1.5px solid var(--primo);
 }
 
 .btn__outline {
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
-  border: 1px solid var(--primo);
+  border: 1.5px solid var(--primo);
   transition: all .3s ease-out;
 }
 
@@ -52,23 +52,29 @@
 }
 .btn__large:hover,
 .btn__medium:hover,
-.btn__mobile:hover, 
-.btn__outline:hover {
+.btn__mobile:hover {
   transition: all .3s ease-out;
   background-color: #fff;
   color: #242424;
 }
 
+.btn__outline:hover {
+  color: var(--yellow);
+  background-color: transparent;
+  border-color: var(--yellow);
+  box-sizing: border-box;
+  border-width: 1.5px;  
+}
 .btn__primary:hover {
   transition: all .3s ease-out;
-  background-color: #f00946;
+  background-color: var(--yellow);
   color: #fff;
   border: 0;
 }
 
 .btn__wide:hover {
   color: #fff;
-  background-color: #f00946;
+  background-color: var(--danger);
   transition: all .2s ease-out;
 }
 
@@ -78,7 +84,7 @@
   border: none;
 }
 .red {
-  background-color: #f00946;
+  background-color: var(--danger);
   color: #fff;
   border: none;
 }

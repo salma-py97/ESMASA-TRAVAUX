@@ -7,10 +7,16 @@
 
 }
 
-.title{
+/* .title{
   text-align: center;
   font-weight: 500;
   font-size: 2.5rem;
+} */
+
+.hr{
+  height: 3px;
+  background-color: var(--yellow);
+  width: 92px;
 }
 
 .confiance{

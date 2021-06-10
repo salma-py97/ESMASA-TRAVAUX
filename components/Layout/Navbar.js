@@ -9,10 +9,12 @@ import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
 
 import { useState, useEffect } from "react"
+import { useRouter } from 'next/router'
 
-// import logo from '../../public/images/logo.png'
 
 const Navbar = () => {
+  const router = useRouter();
+
   const {
 		navbar_nav,
 		navbar_container,
@@ -25,7 +27,11 @@ const Navbar = () => {
 		menu_icon,
     active,
     logo,
-    close_icon
+    bg_transparent, 
+    bg_dark,
+    bars_scaled,
+    bars_normal,
+    nav_item_active
 	} = NavStyles
 
   const {btn,
@@ -37,7 +43,11 @@ const Navbar = () => {
 	const [click, setClick] = useState(false)
   const [button, setButton] = useState(true)
   const [isRed, setIsRed] = useState(false)
+  const [isScrolled, setScrolled] = useState(false)
+  const [isNotHome, setNotHome] = useState(false)
+  const [bars, setBars] = useState(false)
 
+  
   const showButton = () => {
     if (window.innerWidth > 960) {
       setButton(true)
@@ -45,11 +55,36 @@ const Navbar = () => {
       setButton(false)
     }
   }
-    
+  
+  const navbarBg = () => {
+    if (window.scrollY > 200) {
+      setScrolled(true)
+    } else {
+      setScrolled(false)
+    }
+  }
+
+  const bg = () => {
+    if (router.pathname === "/") {
+      setNotHome(false)
+    } else {
+      setNotHome(true)
+    }
+  }
+  
   useEffect(() => {
     window.addEventListener('resize', showButton);
     showButton()
-}, [])
+    
+    window.addEventListener("scroll", navbarBg)
+    navbarBg()
+
+    
+  }, [])
+  
+  useEffect(() => {
+    bg()
+  }, [router.pathname])
 
 
 
@@ -57,17 +92,17 @@ const Navbar = () => {
     <>
       <IconContext.Provider value={{color: "#fff"}}>
 
-        <div className={navbar_nav}>
+        <div className={isScrolled || click || isNotHome ? `${bg_dark} ${navbar_nav}`: `${bg_transparent} ${navbar_nav}`}  >
           <div className={`${navbar_container} ${nav_container}`}>
 
           <Link	href="/" className={`${navbar_logo}`} >
             <div className={logo}  onClick={() => {setClick(false)}}>
                 <Image
-        src="/images/logo_esmasa.png"
-        alt="ESMASA TRAVAUX"
-        width={50}
-        height={50}
-      />
+                  src="/images/logo_esmasa.png"
+                  alt="ESMASA TRAVAUX"
+                  width={50}
+                  height={50}
+                />
               <h3 className="mt-2">
                 ESMASA TRAVAUX 
               </h3>
@@ -75,30 +110,29 @@ const Navbar = () => {
             </div>
           </Link>
           <div className={menu_icon} onClick={() => setClick(!click)} >
-            {click ? <FaTimes onMouseEnter={() => setIsRed(true)} onMouseLeave={() => setIsRed(false)} className={isRed ? `text-danger` : `text-white`}/> : <FaBars />}
+            {click ? <FaTimes onMouseEnter={() => setIsRed(true)} onMouseLeave={() => setIsRed(false)} className={isRed ? `text-danger` : `text-white`}/> : <FaBars onMouseEnter={() => setBars(true)} onMouseLeave={() => setBars(false)} className={bars ? `${bars_scaled}` : `${bars_normal}`} />}
 					</div>
 
           <ul className={click ? ` ${nav_menu} ${active}` : `${nav_menu}`}>
-						<li className={nav_item}>
+
+						<li className={router.pathname == "/" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
 							<Link	href="/" >
                 <p className={nav_links} onClick={() => {setClick(false)}}>Acceuil</p>
-                
-								
 							</Link>
 						</li>
-						<li className={nav_item}>
+						<li className={router.pathname == "/services" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
 							<Link	href="/services"  >
                 <p className={nav_links} onClick={() => {setClick(false)}}>Services</p>
 								
 							</Link>
 						</li>
-						<li className={nav_item}>
-							<Link	href="/products" >
+						<li className={router.pathname == "/projets" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
+							<Link	href="/projets" >
                 <p className={nav_links} onClick={() => { setClick(false)	}}>Projets</p>
 								
 							</Link>
 						</li>
-						<li className={nav_item}>
+						<li className={router.pathname == "/about" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
 							<Link	href="/about"	>
                 <p className={nav_links} onClick={() => { setClick(false) }}>About</p>
 
@@ -108,12 +142,12 @@ const Navbar = () => {
             <li className={nav_btn}>
               {
               button ? (
-                  <Link href="/sign-up" className={btn__link}>
+                  <Link href="/contact" className={btn__link}>
                       <Button className={`${btn} ${btn__outline}`}>CONTACT</Button>
                   </Link>
               ) : 
               (
-                <Link href="/sign-up" className={btn__link} onClick={() => {setClick(false)}}>
+                <Link href="/contact" className={btn__link} onClick={() => {setClick(false)}}>
                     <Button className={`${btn} ${btn__outline} ${btn__mobile}`}>CONTACT</Button>
                 </Link>
               )
