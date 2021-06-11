@@ -2,10 +2,11 @@
 
 :root {
   --primo: #fff;
-  /* --danger: #ffb400; */
-  --yellow: #ffb400;
+  --yellow: #EDCD1F;
   --danger: #f00946;
 }
+/* --danger: #ffb400; */
+/* --yellow: #ffb400; */
 
 
 html,
