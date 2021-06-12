@@ -73,8 +73,8 @@
 }
 
 .btn__wide:hover {
-  color: #fff;
-  background-color: var(--danger);
+  color: var(--yellow);
+  background-color: var(--primo);
   transition: all .2s ease-out;
 }
 

@@ -5,7 +5,7 @@ import Image from 'next/image'
 const APropos = () => {
   const {hr, bg, title, details, bg_warning, h1, p, col, span} = styles
   return (
-    <div className='my-5'>
+    <div className=''>
       <div className="row d-flex justify-content-center align-item-center">
         {/* <div className="container d-flex justify-content-center align-item-center"> */}
           <div className={`col-lg-6 py-5 ${bg}`}>
@@ -16,9 +16,11 @@ const APropos = () => {
           </div>
           <div className="col-md-6 p-0 d-none d-lg-block">
             <Image
-              src="https://i.ibb.co/8M9CP18/workers-plan.jpg"
+              // src="https://i.ibb.co/8M9CP18/workers-plan.jpg"
+              src="https://i.ibb.co/ZLnyj2G/workers-plan-auto-x1.jpg"
               layout="fill" objectFit="cover"
               alt=""
+              quality={100}
               className=""
             />
 

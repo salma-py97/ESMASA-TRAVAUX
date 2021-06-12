@@ -2,11 +2,11 @@
 
 :root {
   --primo: #fff;
-  --yellow: #EDCD1F;
+  --yellow: #ffb400;
   --danger: #f00946;
 }
+/* --yellow: #EDCD1F; */
 /* --danger: #ffb400; */
-/* --yellow: #ffb400; */
 
 
 html,
@@ -14,7 +14,10 @@ body {
   padding: 0;
   margin: 0;
   /* font-family: 'PT Sans', sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  overflow-x: hidden;
 }
 
 a {

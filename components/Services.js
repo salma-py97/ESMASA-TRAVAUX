@@ -11,8 +11,8 @@ const Services = () => {
 
   return (
     <div className="container py-5 d-flex flex-column justify-content-center align-items-center">
-      <div className={`${nos_services} my-3`}>
-        <h2>Nos Services</h2>
+      <div className="my-3">
+        <h2 className={nos_services}>Nos Services</h2>
         <hr className={hr} />
       </div>
       <div className="row d-flex justify-content-center align-items-center py-5">

@@ -12,20 +12,18 @@
 .hero_container {
   /* background: url('/images/workers-plan.jpg') center center/cover no-repeat; */
   background-image: radial-gradient(circle at top left,rgba(40,40,40,0.8) 0%,rgba(40,40,40,0.9) 100%),url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/07/construction-35.jpg")!important;
-  background-position: center;
+  /* background-image: radial-gradient(circle at top left,rgba(40,40,40,0.8) 0%,rgba(40,40,40,0.9) 100%),url("https://i.ibb.co/6YW7k9y/images.jpg")!important; */
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3); */
- 
-  padding: 0 30px;
-
-  
+  padding: 0 30px;  
 }
 
 .container {

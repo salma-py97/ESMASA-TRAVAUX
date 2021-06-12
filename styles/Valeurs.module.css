@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+.bg {
+  /* background-image: url("https://preview.colorlib.com/theme/webuilder/img/work-bg.jpg"); */
+  /* background-image: url("https://jevelin.shufflehound.com/construction/wp-content/uploads/sites/15/2017/10/constr_Footer.jpg"); */
+  /* background-image: url('https://i.ibb.co/LJh5RPt/image-8.png'); */
+  background-image: url('https://i.ibb.co/1skcfGb/image-9.png');
+  /* https://i.ibb.co/1skcfGb/image-9.png
+
+  https://i.ibb.co/HdYqJ7Z/constr-Footer.jpg */
+  background-position: center;
+  /* background-size: contain; */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.bg::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /* z-index: -1; */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hr{
+  height: 3px;
+  background-color: var(--yellow);
+  /* width: 92px; */
+  width: 92px;
+}
+
+.value_title{
+  color: #DB545A;
+  font-weight: 600;
+}
