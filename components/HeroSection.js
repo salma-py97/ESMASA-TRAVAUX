@@ -1,6 +1,7 @@
 import Button from './Layout/Button'
 import ButtonStyles from '../styles/Button.module.css'
 import Homestyles from '../styles/HeroSection.module.css'
+import Link from 'next/link'
 
 
 const HeroSection = () => {
@@ -23,15 +24,19 @@ const HeroSection = () => {
         className={video}>
         <source src="/videos/video-1.mp4" type="video/mp4"/>
       </video> */}
-      <div className={container}>
+      <div className={`mt-5 ${container}`}>
         <h1>ESMASA TRAVAUX</h1>
         <p>
           {/* Leader dans la construction et la rénovation de bâtiments durables */}
           LEADER DANS LA CONSTRUCTION ET LA RÉNOVATION DE BÂTIMENTS DURABLES
         </p>
         <div className={hero_btns}>
-          <Button className={`${btn} ${btn__outline} ${btn__large}`} >Contactez-nous</Button>
-          <Button className={`${btn} ${btn__primary} ${btn__large} px-5`} >Nos Projets</Button>
+          <Link href="/contact" >
+            <Button className={`${btn} ${btn__outline} ${btn__large}`} >Contactez-nous</Button>
+          </Link>
+          <Link href="projets" >
+            <Button className={`${btn} ${btn__primary} ${btn__large} px-5`} >Nos Projets</Button>
+          </Link>
 
         </div>
       </div>
