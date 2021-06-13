@@ -9,9 +9,17 @@
   z-index: -1;
 }
 
+/* https://i.ibb.co/p30ykZT/ezgif-com-gif-maker-2.png
+https://i.ibb.co/KLXHXjp/ezgif-com-gif-maker-1.png
+https://i.ibb.co/yBZK2C7/ezgif-com-gif-maker.png
+https://i.ibb.co/VSNpm7w/service-bg.jpg
+https://i.ibb.co/cyxKZYt/section-bg.jpg
+https://i.ibb.co/pKdky4M/slider-bg-2.jpg */
+
 .hero_container {
   /* background: url('/images/workers-plan.jpg') center center/cover no-repeat; */
-  background-image: radial-gradient(circle at top left,rgba(40,40,40,0.8) 0%,rgba(40,40,40,0.9) 100%),url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/07/construction-35.jpg")!important;
+  /* background-image: radial-gradient(circle at top left,rgba(40,40,40,0.8) 0%,rgba(40,40,40,0.9) 100%),url("https://www.elegantthemes.com/layouts/wp-content/uploads/2018/07/construction-35.jpg")!important; */
+  background-image: url("https://i.ibb.co/pKdky4M/slider-bg-2.jpg")!important;
   /* background-image: radial-gradient(circle at top left,rgba(40,40,40,0.8) 0%,rgba(40,40,40,0.9) 100%),url("https://i.ibb.co/6YW7k9y/images.jpg")!important; */
   background-position: center bottom;
   background-repeat: no-repeat;
