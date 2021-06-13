@@ -93,7 +93,7 @@ const Navbar = () => {
       <IconContext.Provider value={{color: "#fff"}}>
 
         <div className={isScrolled || click || isNotHome ? `${bg_dark} ${navbar_nav}`: `${bg_transparent} ${navbar_nav}`}  >
-          <div className={`${navbar_container} ${nav_container}`}>
+          <div className={`${navbar_container} ${nav_container} container-fluid px-3 px-md-5 d-flex align-items-center justify-content-between`}>
 
           <Link	href="/" className={`${navbar_logo}`} >
             <div className={logo}  onClick={() => {setClick(false)}}>
@@ -109,7 +109,7 @@ const Navbar = () => {
 
             </div>
           </Link>
-          <div className={menu_icon} onClick={() => setClick(!click)} >
+          <div className={`justify-content-center align-items-center mr-3 mr-md-5 ${menu_icon}`} onClick={() => setClick(!click)} >
             {click ? <FaTimes onMouseEnter={() => setIsRed(true)} onMouseLeave={() => setIsRed(false)} className={isRed ? `text-danger` : `text-white`}/> : <FaBars onMouseEnter={() => setBars(true)} onMouseLeave={() => setBars(false)} className={bars ? `${bars_scaled}` : `${bars_normal}`} />}
 					</div>
 
@@ -123,21 +123,18 @@ const Navbar = () => {
 						<li className={router.pathname == "/services" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
 							<Link	href="/services"  >
                 <p className={nav_links} onClick={() => {setClick(false)}}>Services</p>
-								
 							</Link>
 						</li>
 						<li className={router.pathname == "/projets" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
 							<Link	href="/projets" >
                 <p className={nav_links} onClick={() => { setClick(false)	}}>Projets</p>
-								
 							</Link>
 						</li>
-						{/* <li className={router.pathname == "/about" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
-							<Link	href="/about"	>
-                <p className={nav_links} onClick={() => { setClick(false) }}>About</p>
-
+						<li className={router.pathname == "/sécurité" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
+							<Link	href="/sécurité"	>
+                <p className={nav_links} onClick={() => { setClick(false) }}>Sécurité</p>
 							</Link>
-						</li> */}
+						</li>
 
             <li className={nav_btn}>
               {
