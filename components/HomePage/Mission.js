@@ -1,4 +1,4 @@
-import styles from '../styles/Mission.module.css'
+import styles from '../../styles/Mission.module.css'
 
 const Mission = () => {
   const {bg, hr, inner_bg} = styles

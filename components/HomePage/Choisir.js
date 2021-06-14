@@ -1,4 +1,4 @@
-import styles from '../styles/Choisir.module.css'
+import styles from '../../styles/Choisir.module.css'
 import Image from 'next/image'
 
 import { useState } from 'react'

@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Image from "next/image"
 
 import Carousel from "react-bootstrap/Carousel"
-import carouselStyles from "../styles/Carousel.module.css"
+import carouselStyles from "../../styles/Carousel.module.css"
 
 function ControlledCarousel() {
 	const [index, setIndex] = useState(0)

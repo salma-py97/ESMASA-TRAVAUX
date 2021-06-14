@@ -6,7 +6,11 @@
   /* font-family: 'Rubik', Arial, Helvetica, Lucida, sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 19px;
+  line-height: 1.7;
+}
+.service_col {
+  border: 2px solid #ccc;
 }
 
 .nos_services {

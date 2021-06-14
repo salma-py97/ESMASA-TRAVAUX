@@ -1,4 +1,4 @@
-import styles from "../styles/Valeurs.module.css"
+import styles from "../../styles/Valeurs.module.css"
 
 const Valeurs = () => {
   const {wrapper, yellow_div, title, hr, valeurs, valeur_title, valeur_details} = styles
