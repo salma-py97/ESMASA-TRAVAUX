@@ -16,6 +16,11 @@
   color: #242424;
   border: 1.5px solid var(--primo);
 }
+.btn__primary__yellow_outline {
+  background-color: var(--primo);
+  color: #242424;
+  border: 1.5px solid var(--yellow);
+}
 
 .btn__outline {
   background-color: transparent;
@@ -71,7 +76,12 @@
   color: #fff;
   border: 0;
 }
-
+.btn__primary__yellow_outline:hover {
+  transition: all .3s ease-out;
+  background-color: var(--yellow);
+  color: #fff;
+  border: 0;
+}
 .btn__wide:hover {
   color: var(--yellow);
   background-color: var(--primo);

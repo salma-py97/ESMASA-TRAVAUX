@@ -1,4 +1,8 @@
+import Link from "next/link"
+
 import styles from "../../styles/HomePage/Services.module.css"
+import Button from "../../components/Layout/Button"
+import ButtonStyles from "../../styles/LayoutStyles/Button.module.css"
 
 import { GiPaintRoller } from "react-icons/gi"
 import { FaRegBuilding } from "react-icons/fa"
@@ -8,7 +12,8 @@ import { GiBulldozer } from "react-icons/gi"
 import { BiTrafficCone } from "react-icons/bi"
 
 const Services = () => {
-	const { service, nos_services, service_col, hr } = styles
+	const { service, nos_services, service_col, hr, btn_content } = styles
+	const { btn, btn__primary__yellow_outline } = ButtonStyles
 
 	return (
 		<div className="container py-5 d-flex flex-column justify-content-center align-items-center">
@@ -28,6 +33,11 @@ const Services = () => {
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
 							deleniti provident
 						</p>
+						<Link href="/services">
+							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
+								<p className={btn_content}>EN SAVOIR PLUS</p>
+							</Button>
+						</Link>
 					</div>
 				</div>
 
@@ -41,6 +51,11 @@ const Services = () => {
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
 							deleniti provident
 						</p>
+						<Link href="/services">
+							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
+								<p className={btn_content}>EN SAVOIR PLUS</p>
+							</Button>
+						</Link>
 					</div>
 				</div>
 
@@ -54,6 +69,11 @@ const Services = () => {
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
 							deleniti provident
 						</p>
+						<Link href="/services">
+							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
+								<p className={btn_content}>EN SAVOIR PLUS</p>
+							</Button>
+						</Link>
 					</div>
 				</div>
 				<div className="col p-3">
@@ -66,6 +86,11 @@ const Services = () => {
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
 							deleniti provident
 						</p>
+						<Link href="/services">
+							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
+								<p className={btn_content}>EN SAVOIR PLUS</p>
+							</Button>
+						</Link>
 					</div>
 				</div>
 				<div className="col p-3">
@@ -78,6 +103,11 @@ const Services = () => {
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
 							deleniti provident
 						</p>
+						<Link href="/services">
+							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
+								<p className={btn_content}>EN SAVOIR PLUS</p>
+							</Button>
+						</Link>
 					</div>
 				</div>
 				<div className="col p-3">
@@ -90,6 +120,11 @@ const Services = () => {
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
 							deleniti provident
 						</p>
+						<Link href="/services">
+							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
+								<p className={btn_content}>EN SAVOIR PLUS</p>
+							</Button>
+						</Link>
 					</div>
 				</div>
 			</div>

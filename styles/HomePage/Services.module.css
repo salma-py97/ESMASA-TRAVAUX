@@ -15,11 +15,19 @@
 
 .nos_services {
   font-family: 'Montserrat', sans-serif;
-
+  
 }
 
 .hr{
   height: 3px;
   background-color: var(--yellow);
   width: 50%;
+}
+
+.btn_content {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+
 }
