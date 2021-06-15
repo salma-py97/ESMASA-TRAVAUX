@@ -1,7 +1,22 @@
 .wrapper {
-  min-height: 100vh;
+  position: relative;
   background-image: url("https://i.ibb.co/L0yk8QS/construction-crane.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 500px;
+  
+}
+@media screen and (max-width: 1200px) {
+  .wrapper {
+  background-image: none;
+  }
+  
+}
+
+.icon {
+  color: var(--yellow);
+  z-index: 22;
+}
+.icon:hover {
+  color: #bbb;
 }

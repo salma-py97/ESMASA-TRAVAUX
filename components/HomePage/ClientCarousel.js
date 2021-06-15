@@ -13,6 +13,7 @@ function ControlledCarousel() {
 	}
 
 	const {
+		wrapper,
 		carousel_container,
 		carousel_title,
 		hr,
@@ -22,8 +23,8 @@ function ControlledCarousel() {
 	} = carouselStyles
 
 	return (
-		<div className="container">
-			<div className={carousel_container}>
+		<div className={`${wrapper}`}>
+			<div className={`container ${carousel_container}`}>
 				<div className={carousel_title}>
 					<h2 className="text-center">Nos Clients</h2>
 					<hr className={hr} />

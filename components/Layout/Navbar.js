@@ -140,12 +140,12 @@ const Navbar = () => {
               {
               button ? (
                   <Link href="/contact" className={btn__link}>
-                      <Button className={`${btn} ${btn__outline}`}>CONTACT</Button>
+                      <Button className={`${btn} ${btn__outline}`} onClick={() => {setClick(false)}}>CONTACT</Button>
                   </Link>
               ) : 
               (
                 <Link href="/contact" className={btn__link} onClick={() => {setClick(false)}}>
-                    <Button className={`${btn} ${btn__outline} ${btn__mobile}`}>CONTACT</Button>
+                    <Button className={`${btn} ${btn__outline} ${btn__mobile}`} onClick={() => {setClick(false)}}>CONTACT</Button>
                 </Link>
               )
               } 

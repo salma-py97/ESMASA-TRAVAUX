@@ -1,4 +1,4 @@
-import styles from "../styles/ContactPage"
+import styles from "../styles/ContactPage/Contact.module.css"
 import { useEffect, useState } from "react"
 import {FaPhoneAlt} from 'react-icons/fa'
 import {IoMdMail} from 'react-icons/io'

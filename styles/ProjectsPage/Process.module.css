@@ -1,0 +1,30 @@
+/* https://i.ibb.co/MsNqLgg/construction-icon-2-1.png
+https://i.ibb.co/Wfccphr/construction-horizontal-arrow.png
+https://i.ibb.co/17HdqsZ/construction-icon-3-1.png
+https://i.ibb.co/7SRcNBF/construction-icon-1-1.png */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+
+.wrapper {
+  background-image: url("https://i.ibb.co/HV8VpCv/construction-process.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.hr{
+  height: 3px;
+  background-color: var(--yellow);
+  width: 92px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
