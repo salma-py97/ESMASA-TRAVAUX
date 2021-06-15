@@ -15,11 +15,23 @@
   font-weight: 700;
 }
 
+.banner {
+  height: 13px;
+  width: 680px;
+  position: relative;
+}
+.img {
+  position: fixed;
+  inset: 0;
+}
 
 @media screen and (max-width: 968px) {
   .title {
     font-size: 70px;
     font-weight: 700;
+  }
+  .banner {
+    width: 640px;
   }
 }
 @media screen and (max-width: 920px) {
@@ -27,11 +39,17 @@
     font-size: 60px;
     font-weight: 700;
   } 
+  .banner {
+    width: 600px;
+  }
 }
 @media screen and (max-width: 768px) {
   .title {
     font-size: 50px;
     font-weight: 700;
+  }
+  .banner {
+    width: 550px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -39,11 +57,17 @@
     font-size: 50px;
     font-weight: 700;
   }
+  .banner {
+    width: 500px;
+  }
 }
 @media screen and (max-width: 570px) {
   .title {
     font-size: 40px;
     font-weight: 700;
+  }
+  .banner {
+    width: 400px;
   }
   }
 @media screen and (max-width: 480px) {
@@ -51,10 +75,14 @@
     font-size: 30px;
     font-weight: 700;
   }
+  .banner {
+    width: 290px;
+  }
 }
 @media screen and (max-width: 380px) {
   .title {
     font-size: 24px;
     font-weight: 700;
   }
+
 }
