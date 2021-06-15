@@ -2,6 +2,7 @@
 import Meta from '../Meta'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Footer2 from './Footer2'
 
 const Layout = ({children}) => {
   return (
@@ -9,7 +10,8 @@ const Layout = ({children}) => {
       <Meta />
       <Navbar />
         {children}
-      <Footer />
+      {/* <Footer /> */}
+      <Footer2 />
     </div>
   )
 }
