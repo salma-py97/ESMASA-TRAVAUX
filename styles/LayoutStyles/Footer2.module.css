@@ -39,7 +39,7 @@
 .footer_nav a {
 	color: #999;
 	margin: 0 12px;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .footer_nav a:hover {

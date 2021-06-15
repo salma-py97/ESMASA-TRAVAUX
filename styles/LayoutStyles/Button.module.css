@@ -16,10 +16,21 @@
   color: #242424;
   border: 1.5px solid var(--primo);
 }
+.btn__yellow {
+  background-color: #FCCF00;
+  color: #242424;
+  border: 1.5px solid var(--primo);
+  margin-left: 0;
+}
 .btn__primary__yellow_outline {
   background-color: var(--primo);
   color: #242424;
   border: 1.5px solid var(--yellow);
+}
+.btn__dark {
+  background-color: #777;
+  color: var(--primo);
+  border: 1.5px solid var(--primo);
 }
 
 .btn__outline {
@@ -81,6 +92,17 @@
   background-color: var(--yellow);
   color: #fff;
   border: 0;
+}
+.btn__yellow:hover {
+  background-color: #777;
+  color: #fff;
+  border: 1.5px solid var(--primo);
+  margin-left: 0;
+}
+.btn__dark:hover {
+  background-color: transparent;
+  color: #333;
+  border: 1.5px solid #333;
 }
 .btn__wide:hover {
   color: var(--yellow);
