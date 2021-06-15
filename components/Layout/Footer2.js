@@ -1,4 +1,9 @@
+import { FaPhoneAlt } from "react-icons/fa"
+import { IoMdMail } from "react-icons/io"
+import { MdLocationOn } from "react-icons/md"
+
 import Link from "next/link"
+import Image from "next/image"
 import {
 	FaFacebook,
 	FaTwitter,
@@ -17,7 +22,7 @@ const Footer2 = () => {
 		contact_inner,
 		social_footer,
 		copyright,
-    icon
+		icon,
 	} = styles
 
 	return (
@@ -26,9 +31,18 @@ const Footer2 = () => {
 				<section className={`px-5`}>
 					<div className="row justify-content-around align-items-top">
 						<div className="col-md-4">
-							<h4 className="pt-5 pb-3 text-white">
-								A Propos de ESMASA TRAVAUX
-							</h4>
+							<div className="d-flex justify-content-start align-items-end mt-5 mb-3">
+								<Image
+									src="/images/logo_esmasa.png"
+									alt="ESMASA TRAVAUX"
+									width={50}
+									height={50}
+								/>
+								<h4 className="text-white my-0 ml-2 mr-0 p-0">
+									ESMASA TRAVAUX
+								</h4>
+							</div>
+
 							<p className="text-justify">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Consectetur sunt exercitationem, debitis sequi quos est voluptas
@@ -49,18 +63,35 @@ const Footer2 = () => {
 						</div>
 
 						<div className="col-md-3">
-							<h4 className="pt-5 pb-3 text-white">Contact Nous</h4>
-							<p className={`${contact_inner}`}>
-								<i className="fa fa-location-arrow me-2"></i> Lorem ipsum dolor
-								sit amet, consectetur adipisicing elit. Provident, dignissimos.{" "}
-							</p>
-							<p className={`${contact_inner}`}>
-								<i className="fa fa-phone me-2"></i>+212 (05) 634567890
-							</p>
-							<p className={`${contact_inner}`}>
-								<i className="fa fa fa-envelope me-2"></i>{" "}
-								esmasatravaux@gmail.com{" "}
-							</p>
+							<h4 className="pt-5 pb-3 text-white">Contactez Nous</h4>
+							<div className="row d-flex justify-content-around align-items-center mb-3">
+								<div className="col-2">
+									<MdLocationOn className="text-white mb-4" fontSize={20} />
+								</div>
+								<div className="col-9">
+									<p className={`${contact_inner}`}>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Provident, dignissimos.{" "}
+									</p>
+								</div>
+							</div>
+
+							<div className="row d-flex justify-content-around align-items-center mb-3">
+								<div className="col-2">
+									<FaPhoneAlt className="text-white" fontSize={20} />
+								</div>
+								<div className="col-9">
+									<p className={`${contact_inner}`}>+212 (05) 634567890 </p>
+								</div>
+							</div>
+							<div className="row d-flex justify-content-around align-items-center mb-3">
+								<div className="col-2">
+									<IoMdMail className="text-white" fontSize={20} />
+								</div>
+								<div className="col-9">
+									<p className={`${contact_inner}`}>esmasatravaux@gmail.com</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -71,27 +102,27 @@ const Footer2 = () => {
 					<div
 						className={`row justify-content-center align-items-center text-center`}
 					>
-            <div className="col-9 justify-content-center align-items-center">
-            <div
-						className={`row justify-content-center align-items-center text-center ${footer_nav}`}
-					>
-              <div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
-                <Link href="/">Acceuil</Link>
-              </div>
-              <div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
-                <Link href="/services">Services</Link>
-              </div>
-              <div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
-                <Link href="/projets">Projets</Link>
-              </div>
-              <div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
-                <Link href="/sécurité">Sécurité</Link>
-              </div>
-              <div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
-                <Link href="/contact">Contact</Link>
-              </div>
-          </div>
-            </div>
+						<div className="col-9 justify-content-center align-items-center">
+							<div
+								className={`row justify-content-center align-items-center text-center ${footer_nav}`}
+							>
+								<div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
+									<Link href="/">Acceuil</Link>
+								</div>
+								<div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
+									<Link href="/services">Services</Link>
+								</div>
+								<div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
+									<Link href="/projets">Projets</Link>
+								</div>
+								<div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
+									<Link href="/sécurité">Sécurité</Link>
+								</div>
+								<div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
+									<Link href="/contact">Contact</Link>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div
