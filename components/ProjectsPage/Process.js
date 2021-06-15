@@ -15,7 +15,7 @@ const Process = () => {
         <h3 className="text-center">CONSTRUCTION PROCESS</h3>
         <hr className={hr}></hr>
         <div className="row justify-content-between align-items-center mt-5">
-          <div className="col-md-3 d-flex flex-column justify-content-center align-items-center mb-sm-4 mb-0">
+          <div className="col-md-3 m-0 d-flex flex-column justify-content-center align-items-center mb-sm-4 mb-md-0">
             <Image 
               src="https://i.ibb.co/7SRcNBF/construction-icon-1-1.png"
               height={150}
@@ -36,7 +36,7 @@ const Process = () => {
               alt="arrow" 
             />
           </div>
-          <div className="col-md-3 d-flex flex-column justify-content-center align-items-center mb-sm-4 mb-0">
+          <div className="col-md-3 m-0 d-flex flex-column justify-content-center align-items-center mb-sm-4 mb-md-0">
             <Image 
               src="https://i.ibb.co/MsNqLgg/construction-icon-2-1.png"
               height={150}

@@ -12,7 +12,6 @@
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-height: 100vh;
   position: relative;
   color: #fff;
 }
