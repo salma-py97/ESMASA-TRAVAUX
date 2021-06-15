@@ -1,4 +1,4 @@
-import styles from '../../styles/Break.module.css'
+import styles from '../../styles/HomePage/Break.module.css'
 
 const Break = () => {
   const {bg, inner_bg} = styles

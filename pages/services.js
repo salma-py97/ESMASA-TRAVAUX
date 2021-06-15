@@ -1,8 +1,12 @@
+import HeroSection from '../components/ServicesPage/HeroSection'
+import ServicesDetails from '../components/ServicesPage/ServicesDetails'
+
 const services = () => {
   return (
-    <h1>
-      SERVICES
-    </h1>
+    <>
+      <HeroSection />
+      <ServicesDetails />
+    </>
   )
 }
 

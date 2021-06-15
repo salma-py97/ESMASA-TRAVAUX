@@ -1,5 +1,5 @@
-import styles from '../../styles/YellowBreak.module.css'
-import buttonStyles from '../../styles/Button.module.css'
+import styles from '../../styles/HomePage/YellowBreak.module.css'
+import buttonStyles from '../../styles/LayoutStyles/Button.module.css'
 const YellowBreak = () => {
   const {bg} = styles
   const {btn, btn__outline, btn__wide} = buttonStyles

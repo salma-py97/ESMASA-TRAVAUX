@@ -1,6 +1,6 @@
 import Button from './Button'
-import ButtonStyles from '../../styles/Button.module.css'
-import FooterStyles from '../../styles/Footer.module.css'
+import ButtonStyles from '../../styles/LayoutStyles/Button.module.css'
+import FooterStyles from '../../styles/LayoutStyles/Footer.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import {FaFacebook, FaTwitter, FaInstagramSquare, FaLinkedin} from 'react-icons/fa'

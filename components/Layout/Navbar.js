@@ -1,6 +1,6 @@
-import NavStyles from "../../styles/Navbar.module.css"
+import NavStyles from "../../styles/LayoutStyles/Navbar.module.css"
 import Button from './Button'
-import ButtonStyles from '../../styles/Button.module.css'
+import ButtonStyles from '../../styles/LayoutStyles/Button.module.css'
 
 import Link from "next/link"
 import Image from 'next/image'

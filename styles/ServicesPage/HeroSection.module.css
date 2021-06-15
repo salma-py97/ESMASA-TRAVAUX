@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+
+.wrapper {
+  /* margin-top: 80px; */
+  height: 100vh;
+  background-image: url("https://i.ibb.co/MG2Y4xz/1-6.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.span {
+  font-size: 8rem;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 968px) {
+  .span {
+    font-size: 7rem;
+    font-weight: 900;
+  }
+  
+  .title {
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+}
+@media screen and (max-width: 920px) {
+  .span {
+    font-size: 6rem;
+    font-weight: 900;
+  }
+  
+  .title {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  .span {
+    font-size: 5rem;
+    font-weight: 900;
+  }
+  
+  .title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+}
+@media screen and (max-width: 650px) {
+  .span {
+    font-size: 4.6rem;
+    font-weight: 900;
+  }
+  
+  .title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  
+}
+@media screen and (max-width: 570px) {
+  .span {
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 3px 10px 0 10px;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  .span {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 6px 10px 0 10px;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+}
+@media screen and (max-width: 380px) {
+  .span {
+    font-size: 2.1rem;
+    font-weight: 900;
+    margin: 10px 10px 0 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+}

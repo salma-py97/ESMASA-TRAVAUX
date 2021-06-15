@@ -1,6 +1,6 @@
 import Button from '../Layout/Button'
-import ButtonStyles from '../../styles/Button.module.css'
-import Homestyles from '../../styles/HeroSection.module.css'
+import ButtonStyles from '../../styles/LayoutStyles/Button.module.css'
+import Homestyles from '../../styles/HomePage/HeroSection.module.css'
 import Link from 'next/link'
 
 

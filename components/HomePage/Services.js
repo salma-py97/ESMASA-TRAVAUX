@@ -1,5 +1,4 @@
-import Image from "next/image"
-import styles from "../../styles/Services.module.css"
+import styles from "../../styles/HomePage/Services.module.css"
 
 import { GiPaintRoller } from "react-icons/gi"
 import { FaRegBuilding } from "react-icons/fa"

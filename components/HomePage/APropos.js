@@ -1,4 +1,4 @@
-import styles from '../../styles/APropos.module.css'
+import styles from '../../styles/HomePage/APropos.module.css'
 import Image from 'next/image'
 
 
