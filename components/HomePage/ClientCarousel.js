@@ -22,6 +22,13 @@ function ControlledCarousel() {
 		row,
 	} = carouselStyles
 
+// 	https://i.ibb.co/0tr0xFn/ziz-removebg-preview.png
+// https://i.ibb.co/HdDXS1v/veolia-redal-removebg-preview.png
+// https://i.ibb.co/KrCzXFW/sonasid-removebg-preview.png
+// https://i.ibb.co/zXjxJms/ciment-du-maroc-removebg-preview.png
+// https://i.ibb.co/ccTsCwQ/casa-prestations-removebg-preview.png
+// https://i.ibb.co/3T20zJd/amendis-removebg-preview.png
+// https://i.ibb.co/940m59P/Akwagroup-removebg-preview.png
 	return (
 		<div className={`${wrapper}`}>
 			<div className={`container ${carousel_container}`}>
@@ -41,7 +48,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-between">
 									<div className="col-md-3">
 										<Image
-											src="https://i.ibb.co/fMnC75n/ciment-du-maroc.jpg"
+											src="https://i.ibb.co/zXjxJms/ciment-du-maroc-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -49,14 +56,14 @@ function ControlledCarousel() {
 									</div>
 									<div className="col-md-3">
 										<Image
-											src="https://i.ibb.co/gvXM4yp/casa-prestations.jpg"
+											src="https://i.ibb.co/ccTsCwQ/casa-prestations-removebg-preview.png"
 											width={1050}
 											height={500}
 										/>
 									</div>
 									<div className="col-md-3">
 										<Image
-											src="/images/amendis.jpg"
+											src="https://i.ibb.co/3T20zJd/amendis-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -64,7 +71,7 @@ function ControlledCarousel() {
 									</div>
 									<div className="col-md-3">
 										<Image
-											src="/images/veolia-redal.jpg"
+											src="https://i.ibb.co/HdDXS1v/veolia-redal-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -78,7 +85,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-between">
 									<div className="col md-2">
 										<Image
-											src="https://i.ibb.co/TMBV2KP/Akwagroup.jpg"
+											src="https://i.ibb.co/940m59P/Akwagroup-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -86,7 +93,7 @@ function ControlledCarousel() {
 									</div>
 									<div className="col md-2">
 										<Image
-											src="https://i.ibb.co/LrNgX4g/sonasid.jpg"
+											src="https://i.ibb.co/KrCzXFW/sonasid-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -94,7 +101,7 @@ function ControlledCarousel() {
 									</div>
 									<div className="col md-2">
 										<Image
-											src="/images/ziz.png"
+											src="https://i.ibb.co/0tr0xFn/ziz-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -136,7 +143,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-between">
 									<div className="col-md-3">
 										<Image
-											src="https://i.ibb.co/fMnC75n/ciment-du-maroc.jpg"
+											src="https://i.ibb.co/zXjxJms/ciment-du-maroc-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -144,44 +151,14 @@ function ControlledCarousel() {
 									</div>
 									<div className="col-md-3">
 										<Image
-											src="https://i.ibb.co/gvXM4yp/casa-prestations.jpg"
+											src="https://i.ibb.co/ccTsCwQ/casa-prestations-removebg-preview.png"
 											width={1050}
 											height={500}
 										/>
 									</div>
 									<div className="col-md-3">
 										<Image
-											src="/images/amendis.jpg"
-											alt="ESMASA TRAVAUX"
-											width={1050}
-											height={500}
-										/>
-									</div>
-								</div>
-							</div>
-						</Carousel.Item>
-						<Carousel.Item>
-							<div className={row}>
-								<div className="row d-flex align-items-center justify-content-between">
-									<div className="col-md-3">
-										<Image
-											src="/images/veolia-redal.jpg"
-											alt="ESMASA TRAVAUX"
-											width={1050}
-											height={500}
-										/>
-									</div>
-									<div className="col-md-3">
-										<Image
-											src="https://i.ibb.co/TMBV2KP/Akwagroup.jpg"
-											alt="ESMASA TRAVAUX"
-											width={1050}
-											height={500}
-										/>
-									</div>
-									<div className="col-md-3">
-										<Image
-											src="https://i.ibb.co/LrNgX4g/sonasid.jpg"
+											src="https://i.ibb.co/3T20zJd/amendis-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -195,7 +172,37 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-between">
 									<div className="col-md-3">
 										<Image
-											src="/images/ziz.png"
+											src="https://i.ibb.co/HdDXS1v/veolia-redal-removebg-preview.png"
+											alt="ESMASA TRAVAUX"
+											width={1050}
+											height={500}
+										/>
+									</div>
+									<div className="col-md-3">
+										<Image
+											src="https://i.ibb.co/940m59P/Akwagroup-removebg-preview.png"
+											alt="ESMASA TRAVAUX"
+											width={1050}
+											height={500}
+										/>
+									</div>
+									<div className="col-md-3">
+										<Image
+											src="https://i.ibb.co/KrCzXFW/sonasid-removebg-preview.png"
+											alt="ESMASA TRAVAUX"
+											width={1050}
+											height={500}
+										/>
+									</div>
+								</div>
+							</div>
+						</Carousel.Item>
+						<Carousel.Item>
+							<div className={row}>
+								<div className="row d-flex align-items-center justify-content-between">
+									<div className="col-md-3">
+										<Image
+											src="https://i.ibb.co/0tr0xFn/ziz-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -237,7 +244,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-between">
 									<div className="col-5">
 										<Image
-											src="https://i.ibb.co/fMnC75n/ciment-du-maroc.jpg"
+											src="https://i.ibb.co/zXjxJms/ciment-du-maroc-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={600}
 											height={350}
@@ -246,7 +253,7 @@ function ControlledCarousel() {
 									</div>
 									<div className="col-5">
 										<Image
-											src="https://i.ibb.co/gvXM4yp/casa-prestations.jpg"
+											src="https://i.ibb.co/ccTsCwQ/casa-prestations-removebg-preview.png"
                       alt="ESMASA TRAVAUX"
 											width={600}
 											height={350}
@@ -261,7 +268,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-between">
 									<div className="col-5">
 										<Image
-											src="/images/amendis.jpg"
+											src="https://i.ibb.co/3T20zJd/amendis-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={600}
 											height={350}
@@ -270,7 +277,7 @@ function ControlledCarousel() {
 									</div>
 									<div className="col-5">
 										<Image
-											src="/images/veolia-redal.jpg"
+											src="https://i.ibb.co/HdDXS1v/veolia-redal-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={600}
 											height={350}
@@ -285,7 +292,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-between">
 									<div className="col-5">
 										<Image
-											src="https://i.ibb.co/TMBV2KP/Akwagroup.jpg"
+											src="https://i.ibb.co/940m59P/Akwagroup-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={600}
 											height={350}
@@ -294,7 +301,7 @@ function ControlledCarousel() {
 									</div>
 									<div className="col-5">
 										<Image
-											src="https://i.ibb.co/LrNgX4g/sonasid.jpg"
+											src="https://i.ibb.co/KrCzXFW/sonasid-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={600}
 											height={350}
@@ -310,7 +317,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-between">
 									<div className="col-3">
 										<Image
-											src="/images/ziz.png"
+											src="https://i.ibb.co/0tr0xFn/ziz-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={850}
 											height={750}
@@ -354,7 +361,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-center">
 									<div className="col-9">
 										<Image
-											src="https://i.ibb.co/fMnC75n/ciment-du-maroc.jpg"
+											src="https://i.ibb.co/zXjxJms/ciment-du-maroc-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -368,7 +375,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-center">
 									<div className="col-9">
 										<Image
-											src="https://i.ibb.co/gvXM4yp/casa-prestations.jpg"
+											src="https://i.ibb.co/ccTsCwQ/casa-prestations-removebg-preview.png"
 											width={1050}
 											height={500}
 										/>
@@ -381,7 +388,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-center">
 									<div className="col-9">
 										<Image
-											src="/images/amendis.jpg"
+											src="https://i.ibb.co/3T20zJd/amendis-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -396,7 +403,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-center">
 									<div className="col-9">
 										<Image
-											src="/images/veolia-redal.jpg"
+											src="https://i.ibb.co/HdDXS1v/veolia-redal-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -411,7 +418,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-center">
 									<div className="col-9">
 										<Image
-											src="https://i.ibb.co/TMBV2KP/Akwagroup.jpg"
+											src="https://i.ibb.co/940m59P/Akwagroup-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -426,7 +433,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-center">
 									<div className="col-9">
 										<Image
-											src="https://i.ibb.co/LrNgX4g/sonasid.jpg"
+											src="https://i.ibb.co/KrCzXFW/sonasid-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
@@ -440,7 +447,7 @@ function ControlledCarousel() {
 								<div className="row d-flex align-items-center justify-content-center">
 									<div className="col-9">
 										<Image
-											src="/images/ziz.png"
+											src="https://i.ibb.co/0tr0xFn/ziz-removebg-preview.png"
 											alt="ESMASA TRAVAUX"
 											width={1050}
 											height={500}
