@@ -28,14 +28,17 @@ const contact = () => {
     contact_info_title,
     contact_info_details,
     icon,
-    travaillons_ensemble
+    travaillons_ensemble,
+		hr
 	} = styles
   
 	return (
     <div className={`m-0 ${wrapper}`}>
 			<div className={`d-none d-lg-block ${yellow_div}`}></div>
-      <div className={`d-flex justify-content-center align-items-center text-center mx-auto p-0 ${travaillons_ensemble}`}>
+      <div className={`d-flex flex-column justify-content-center align-items-center text-center mx-auto p-0 ${travaillons_ensemble}`}>
         <h1 className={`p-0 m-0 text-white ${title}`}>Contactez-nous!</h1>
+				<hr className={hr} />
+
       </div>
 
       <div className={`container d-flex flex-column justify-content-center align-items-center mx-auto ${contact_info}`} >
@@ -72,7 +75,9 @@ const contact = () => {
 
 			<section className={get_in_touch}>
 				<div className="container">
-					<h1 className={title}>Envoyez-nous un message!</h1>
+					<h1 className={title}>Envoyez-nous un message!<hr className={hr} /></h1>
+					
+
 					<form
 						className={`${contact_form} row`}
 						name="contact"

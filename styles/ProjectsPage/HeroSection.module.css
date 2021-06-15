@@ -3,7 +3,8 @@
   /* margin-top: 80px; */
   min-height: 100vh;
   background-image: url("https://i.ibb.co/84Fj42z/1-2.jpg");
-  background-position: center;
+  background-position-y: bottom;
+  background-position-x: right;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;

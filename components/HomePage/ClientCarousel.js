@@ -482,8 +482,8 @@ function ControlledCarousel() {
 
 				{/* ---------------------------------------------- END OF FOURTH CAROUSEL ------------------------------------------ */}
 
-				<div className={confiance}>
-					<p className={confiance_title}>ils nous font confiance!</p>
+				<div className={`border d-flex justify-content-center align-items-center ${confiance}`}>
+					<p className={`border p-0 m-0 ${confiance_title}`}>ils nous font confiance!</p>
 				</div>
 			</div>
 		</div>

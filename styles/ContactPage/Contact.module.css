@@ -14,6 +14,12 @@
 	z-index: 1;
 	position: relative;
 }
+.hr{
+  height: 3px;
+  background-color: var(--yellow);
+  width: 92px;
+  text-align: center;
+}
 .travaillons_ensemble {
 	margin-top: 80px;
 	height: 50vh;
