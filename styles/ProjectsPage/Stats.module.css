@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+.wrapper {
+  font-family: 'Montserrat', sans-serif;
+  /* background-image: url('https://i.ibb.co/yVrzZD5/section-bg3-1.jpg'); */
+  background-image: url('https://i.ibb.co/qFxkz9j/image-10.png');
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.title {
+  color: rgb(163, 153, 110);
+  color: #fbcF00;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 69px;
+}
+
+.p{
+color: #B3B3B3;
+font-size: 24px;
+font-weight: 300;
+}
+
+.extra {
+  color: transparent;
+}
