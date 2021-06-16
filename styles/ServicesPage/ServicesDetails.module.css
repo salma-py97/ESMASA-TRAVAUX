@@ -22,6 +22,7 @@
 }
 .row:hover .bg{
 	background-color: #989898;
+	transition: .3s ease;
 }
 
 .col1,
