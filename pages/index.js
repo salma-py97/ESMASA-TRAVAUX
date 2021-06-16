@@ -6,7 +6,7 @@ import Choisir from '../components/HomePage/Choisir'
 import APropos from '../components/HomePage/APropos'
 import Valeurs from '../components/HomePage/Valeurs'
 import Mission from '../components/HomePage/Mission'
-import Break from '../components/HomePage/Break'
+import Stats from '../components/HomePage/Stats'
 import YellowBreak from '../components/HomePage/YellowBreak'
 
 
@@ -21,6 +21,7 @@ export default function Home() {
       <HeroSection />
       <Services />
       <APropos />
+      <Stats />
       <Mission />
       {/* <Break /> */}
       <Valeurs />
