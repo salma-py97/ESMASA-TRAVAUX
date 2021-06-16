@@ -91,15 +91,18 @@
   transition: all .3s ease-out;
   background-color: var(--yellow);
   color: #fff;
-  border: 0;
+  border: 1.5px solid var(--primo);
 }
 .btn__yellow:hover {
   background-color: #777;
   color: #fff;
   border: 1.5px solid var(--primo);
   margin-left: 0;
+  transition: all .3s ease-out;
+
 }
 .btn__dark:hover {
+  transition: all .3s ease-out;
   background-color: transparent;
   color: #333;
   border: 1.5px solid #333;
