@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+
+
+.wrapper {
+  font-family: 'Montserrat', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  /* background-image: url('https://i.ibb.co/j35JC9J/4-1-1.jpg'); */
+  background-image: url('https://i.ibb.co/v49mKJR/projects-backgound.png');
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.title {
+  color: #2C2C2C;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card_title {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.95px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.card_text {
+  color: rgb(141, 141, 141);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.hr{
+  height: 3px;
+  background-color: var(--yellow);
+  width: 150px;
+  margin-left: 0;
+  margin-right: 0;
+}
