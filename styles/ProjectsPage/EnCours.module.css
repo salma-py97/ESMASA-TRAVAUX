@@ -14,7 +14,8 @@
 }
 
 .container {
-  width: 90vw;
+  /* max-width: 90vw; */
+  max-width: 1300px;
 }
 
 .card {
