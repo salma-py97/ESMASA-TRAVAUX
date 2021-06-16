@@ -8,7 +8,7 @@
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 50vh;
+  min-height: 320px;
 }
 
 .title {
