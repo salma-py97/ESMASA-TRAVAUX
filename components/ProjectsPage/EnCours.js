@@ -6,16 +6,16 @@ import Button from '../Layout/Button'
 import buttonStyles from "../../styles/LayoutStyles/Button.module.css"
 
 const EnCours = () => {
-	const { wrapper, hr, title, card_title, card, card_text, bar } = styles
+	const { wrapper, container, hr, title, card_title, card, card_text, bar, bar_desc, inner_bar } = styles
 	const { btn, btn__yellow } = buttonStyles
 	return (
 		<div className={`py-5 ${wrapper}`}>
-			<div className="container py-5">
-				<h2 className={`mb-5 d-flex flex-column ${title}`}>PROJETS EN COURS <hr className={hr} /></h2>
+			<div className={`d-flex flex-column justify-content-center align-items-center mx-auto py-5 ${container}`}>
+				<h2 className={`mb-5 d-flex flex-column mr-auto ${title}`}>PROJETS EN COURS <hr className={hr} /></h2>
 				
 
 				<div className="row d-flex justify-content-center alogn-items-center">
-					<div className="col-md-4 p-3">
+					<div className="col-lg-4 p-3">
 						<Card className={card} >
 							<Card.Img
 								variant="top"
@@ -27,16 +27,22 @@ const EnCours = () => {
 									Some quick example text to build on the card title and make up
 									the bulk of the card's content.
 								</Card.Text>
+                <div className={`d-flex justify-content-between align-items-center mt-4 mb-2 ${bar_desc}`}>
+									<h6>Réalisé à</h6>
+									<h4>70%</h4>
+								</div>
+                <div className={`mb-4 ${bar}`}>
+									<div className={inner_bar}></div>
+								</div>
 								<Button className={`${btn} ${btn__yellow}`}>
 									Contactez-nous
 								</Button>
-                <div className={bar}></div>
 
 								{/* <Button variant="primary">Go somewhere</Button> */}
 							</Card.Body>
 						</Card>
 					</div>
-					<div className="col-md-4 p-3">
+					<div className="col-lg-4 p-3">
 						<Card className={card} >
 							<Card.Img
 								variant="top"
@@ -48,16 +54,22 @@ const EnCours = () => {
 									Some quick example text to build on the card title and make up
 									the bulk of the card's content.
 								</Card.Text>
+                <div className={`d-flex justify-content-between align-items-center mt-4 mb-2 ${bar_desc}`}>
+									<h6>Réalisé à</h6>
+									<h4>70%</h4>
+								</div>
+                <div className={`mb-4 ${bar}`}>
+									<div className={inner_bar}></div>
+								</div>
 								<Button className={`${btn} ${btn__yellow}`}>
 									Contactez-nous
 								</Button>
-                <div className={bar}></div>
 
 								{/* <Button variant="primary">Go somewhere</Button> */}
 							</Card.Body>
 						</Card>
 					</div>
-					<div className="col-md-4 p-3">
+					<div className="col-lg-4 p-3">
 						<Card className={card} >
 							<Card.Img
 								variant="top"
@@ -69,10 +81,16 @@ const EnCours = () => {
 									Some quick example text to build on the card title and make up
 									the bulk of the card's content.
 								</Card.Text>
+                <div className={`d-flex justify-content-between align-items-center mt-4 mb-2 ${bar_desc}`}>
+									<h6>Réalisé à</h6>
+									<h4>70%</h4>
+								</div>
+                <div className={`mb-4 ${bar}`}>
+									<div className={inner_bar}></div>
+								</div>
 								<Button className={`${btn} ${btn__yellow}`}>
 									Contactez-nous
 								</Button>
-                <div className={bar}></div>
 
 								{/* <Button variant="primary">Go somewhere</Button> */}
 							</Card.Body>

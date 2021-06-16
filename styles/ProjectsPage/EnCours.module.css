@@ -13,6 +13,10 @@
   min-height: 100vh;
 }
 
+.container {
+  width: 95vw;
+}
+
 .card {
   border-radius: 0;
 }
@@ -43,4 +47,21 @@
   width: 150px;
   margin-left: 0;
   margin-right: 0;
+}
+.bar_desc > h6{
+  font-weight: 500;
+}
+.bar_desc > h4{
+  font-weight: 700;
+}
+.bar {
+  width: 100%;
+  height: 7px;
+  background: #ccc;
+  position: relative !important;
+}
+.inner_bar{
+  height: 100%;
+  width: 70%;
+  background: #333;
 }
