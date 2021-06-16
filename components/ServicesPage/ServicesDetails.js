@@ -14,13 +14,13 @@ const ServicesDetails = () => {
 			className={`d-flex justify-content-center align-items-center py-5 my-5 container ${wrapper}`}
 		>
 			<div className={`d-flex justify-content-center align-items-center mt-5`}>
-				<div className={`row d-flex justify-content-between align-items-center mt-5 ${row}`}>
+				<div className={`row d-flex justify-content-between align-items-center mt-5`}>
 					<div className={line3}></div>
 					<div className={`col-md-6 d-flex justify-content-lg-start justify-content-center align-items-center  ${col1}`}>
 						<div className={line1}></div>
 						<div className="row d-flex flex-column justify-content-center align-items-start">
 							<div className="col-md-11 col-xl-9 my-3 ml-xl-n4">
-								<div className="row d-flex flex-lg-row-reverse justify-content-lg-end justify-content-start align-items-center">
+								<div className={`row d-flex flex-lg-row-reverse justify-content-lg-end justify-content-start align-items-center ${row}`}>
 									<div className="col-3 d-flex align-items-start justify-content-center">
 										<div className={`d-flex justify-content-center align-items-center mr-xl-n4 ${bg}`}>
 
@@ -45,7 +45,7 @@ const ServicesDetails = () => {
 								</div>
 							</div>
 							<div className="col-md-11 col-xl-9 my-3 ml-xl-n4">
-								<div className="row d-flex flex-lg-row-reverse justify-content-lg-end justify-content-start align-items-center">
+								<div className={`row d-flex flex-lg-row-reverse justify-content-lg-end justify-content-start align-items-center ${row}`}>
 									<div className="col-3 d-flex align-items-start justify-content-center">
 										{/* {" "}
 										<BsTools className={`mb-5 ${icon}`} fontSize="3rem" /> */}
@@ -69,7 +69,7 @@ const ServicesDetails = () => {
 								</div>
 							</div>
 							<div className="col-md-11 col-xl-9 my-3 ml-xl-n4">
-								<div className="row d-flex flex-lg-row-reverse justify-content-lg-end justify-content-start align-items-center">
+								<div className={`row d-flex flex-lg-row-reverse justify-content-lg-end justify-content-start align-items-center ${row}`}>
 									<div className="col-3 d-flex align-items-start justify-content-center">
 										{/* <GiBulldozer className={`mb-5 ${icon}`} fontSize="4.5rem" /> */}
 										<div className={`mr-xl-n4 d-flex justify-content-center align-items-center ${bg}`}>
@@ -96,7 +96,7 @@ const ServicesDetails = () => {
 					<div className={line2}></div>
 						<div className="row flex-column d-flex justify-content-start align-items-end  ">
 							<div className="col-md-11 col-xl-9 my-3 mr-xl-n4">
-								<div className="row d-flex justify-content-start align-items-center">
+								<div className={`row d-flex justify-content-start align-items-center ${row}`}>
 									<div className="col-3 d-flex align-items-start justify-content-center">
 										{/* <GiBrickWall
 										 className={`mr-xl-1 mb-5 ${icon}`}	fontSize="3rem"
@@ -122,7 +122,7 @@ const ServicesDetails = () => {
 								</div>
 							</div>
 							<div className="col-md-11 col-xl-9 my-3 mr-xl-n4">
-								<div className="row d-flex justify-content-start align-items-center">
+								<div className={`row d-flex justify-content-start align-items-center ${row}`}>
 									<div className="col-3 d-flex align-items-start justify-content-center">
 										{/* <GiPaintRoller
 										
@@ -148,7 +148,7 @@ const ServicesDetails = () => {
 								</div>
 							</div>
 							<div className="col-md-11 col-xl-9 my-3 mr-xl-n4">
-								<div className="row d-flex justify-content-start align-items-center">
+								<div className={`row d-flex justify-content-start align-items-center ${row}`}>
 									<div className="col-3 d-flex align-items-start justify-content-center">
 										<div className={`ml-xl-n4 d-flex justify-content-center align-items-center ${bg}`}>
 										<Image 

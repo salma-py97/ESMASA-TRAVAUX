@@ -20,7 +20,7 @@
 	width: 80px;
 	z-index: 3;
 }
-.bg:hover {
+.row:hover .bg{
 	background-color: #989898;
 }
 
