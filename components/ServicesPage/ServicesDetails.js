@@ -7,14 +7,15 @@ import { GiBulldozer } from "react-icons/gi"
 import { BiTrafficCone } from "react-icons/bi"
 import Image from 'next/image'
 const ServicesDetails = () => {
-	const { wrapper, bg, col1, col2, line1, line2 } = styles
+	const { wrapper, bg, col1, col2, line1, line2, row, line3 } = styles
 
 	return (
 		<div
 			className={`d-flex justify-content-center align-items-center py-5 my-5 container ${wrapper}`}
 		>
 			<div className={`d-flex justify-content-center align-items-center mt-5`}>
-				<div className="row d-flex justify-content-between align-items-center mt-5">
+				<div className={`row d-flex justify-content-between align-items-center mt-5 ${row}`}>
+					<div className={line3}></div>
 					<div className={`col-md-6 d-flex justify-content-lg-start justify-content-center align-items-center  ${col1}`}>
 						<div className={line1}></div>
 						<div className="row d-flex flex-column justify-content-center align-items-start">
