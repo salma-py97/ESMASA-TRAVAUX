@@ -20,7 +20,6 @@
   background-color: #FCCF00;
   color: #242424;
   border: 1.5px solid var(--primo);
-  margin-left: 0;
 }
 .btn__primary__yellow_outline {
   background-color: var(--primo);

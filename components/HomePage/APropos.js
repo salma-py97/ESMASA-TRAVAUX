@@ -15,12 +15,12 @@ const APropos = () => {
         </div>
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel eveniet accusamus veniam cupiditate optio ullam exercitationem ex facilis. In nesciunt atque fugit? Vitae repudiandae iste ipsa eos voluptate magni at fugiat neque nulla, deleniti rerum eaque tempora tenetur necessitatibus perspiciatis nemo omnis aliquam consectetur ut accusantium hic. Minus, eveniet labore!</p>
-          <div className="d-flex">
+          <div className="d-flex flex-wrap">
           <Link href="/contact">
-            <Button className={`${btn} ${btn__yellow}`}>Contactez-nous</Button>
+            <Button className={`ml-md-0 ${btn} ${btn__yellow}`}>Contactez-nous</Button>
           </Link>
           <Link href="/projets">
-            <Button className={`${btn} ${btn__dark}`}>Consultez Nos Projets</Button>
+            <Button className={`ml-0 ml-xl-3 ${btn} ${btn__dark}`}>Consultez Nos Projets</Button>
           </Link>
 
           </div>

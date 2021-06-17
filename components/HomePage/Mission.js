@@ -5,7 +5,7 @@ const Mission = () => {
   return (
     <div className={`d-flex flex-column justify-content-center align-items-center text-center py-5 ${bg}`}>
       <div className={`p-md-5 p-1 mx-md-5 d-flex-justify-content-center align-items-center container ${inner_bg}`}>
-        <div className="mb-5">
+        <div className="my-5 mt-md-0">
           <h2>Notre Mission</h2>
           <hr className={hr} />
         </div>
