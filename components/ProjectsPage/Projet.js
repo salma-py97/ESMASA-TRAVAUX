@@ -11,7 +11,7 @@ const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 	const { box, box_title, p, col } = styles
 
 	return (
-		<div className={`row d-flex justify-content-center ${reverse ? `flex-row-reverse` : ``}`}>
+		<div className={`row d-flex justify-content-center my-3 ${reverse ? `flex-row-reverse` : ``}`}>
 			<div className={`col-lg-6 d-flex justify-content-center align-items-center p-3 ${col}`}>
 				<div className={`col d-flex justify-content-center align-items-center h-100 w-100`}>
 					<Image src={src} alt="..." layout="fill" objectFit="cover" />
