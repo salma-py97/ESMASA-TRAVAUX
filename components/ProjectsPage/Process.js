@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 
 const Process = () => {
-  const {wrapper, inner_wrapper, hr, title} = styles
+  const {wrapper, inner_wrapper, hr, title, section_title} = styles
 // /* https://i.ibb.co/MsNqLgg/construction-icon-2-1.png
 // https://i.ibb.co/Wfccphr/construction-horizontal-arrow.png
 // https://i.ibb.co/17HdqsZ/construction-icon-3-1.png
@@ -12,7 +12,7 @@ const Process = () => {
   return (
     <div className={`d-flex justify-content-center align-items-center py-5 ${wrapper}`}>
       <div className={`container d-flex flex-column justify-content-center align-items-center py-5 ${inner_wrapper}`}>
-        <h3 className="text-center">CONSTRUCTION PROCESS</h3>
+        <h3 className={`text-center ${section_title}`}>CONSTRUCTION PROCESS</h3>
         <hr className={hr}></hr>
         <div className="row justify-content-between align-items-center mt-5">
           <div className="col-md-3 m-0 d-flex flex-column justify-content-center align-items-center mb-sm-4 mb-md-0">

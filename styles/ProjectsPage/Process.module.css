@@ -16,7 +16,7 @@ https://i.ibb.co/7SRcNBF/construction-icon-1-1.png */
 .hr{
   height: 3px;
   background-color: var(--yellow);
-  width: 92px;
+  width: 150px;
   text-align: center;
 }
 
@@ -26,4 +26,10 @@ https://i.ibb.co/7SRcNBF/construction-icon-1-1.png */
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
+}
+.section_title {
+  color: #2C2C2C;
+  font-weight: 500;
+  /* letter-spacing: 2px; */
+  text-transform: uppercase;
 }

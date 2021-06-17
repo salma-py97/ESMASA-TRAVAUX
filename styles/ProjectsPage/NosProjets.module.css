@@ -4,3 +4,16 @@
   font-family: 'Montserrat', sans-serif;
 
 }
+
+.section_title {
+  color: #2C2C2C;
+  font-weight: 500;
+  /* letter-spacing: 2px; */
+  text-transform: uppercase;
+}
+
+.hr{
+  height: 3px;
+  background-color: var(--yellow);
+  width: 150px;
+}

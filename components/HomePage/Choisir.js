@@ -65,7 +65,7 @@ const Choisir = () => {
               </div>
               <div className="col-9">
                 <h3 className={reason_title}>Professional Team</h3>
-                <p className={reason}>Canada Construction Contractors Inc. takes pride in its modern management and highly professional technical personnel. We are fully bonded and insured. Our workers are trained with the latest industry safety standards and requirements.</p>
+                <p className={reason}>ESMASA Travaux takes pride in its modern management and highly professional technical personnel. We are fully bonded and insured. Our workers are trained with the latest industry safety standards and requirements.</p>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ const Choisir = () => {
               </div>
               <div className="col-9">
                 <h3 className={reason_title}>Health and Safety</h3>
-                <p className={reason}>Canada Construction Contractors Inc. is committed to take every reasonable precaution to prevent injuries and maintain a safe and healthy environment.</p>
+                <p className={reason}>ESMASA Travaux is committed to take every reasonable precaution to prevent injuries and maintain a safe and healthy environment.</p>
               </div>
             </div>
           </div>

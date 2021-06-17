@@ -29,21 +29,17 @@
   color: #ccc;
 }
 
-.icon:hover{
-  color: var(--yellow);
-}
-.icon{
-  color: var(--yellow);
-}
 .reason_title {
   color: #fff;
 }
 .reason_div:hover .reason_title {
   color: var(--yellow);
+  transition: .2s ease;
 }
 
 .reason_div:hover .reason{
-  color: #fff
+  color: #fff;
+  transition: .2s ease;
 }
 
 
