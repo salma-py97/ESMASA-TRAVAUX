@@ -14,8 +14,8 @@ const EnCours = () => {
 				<h2 className={`mb-5 d-flex flex-column mr-auto ${title}`}>PROJETS EN COURS <hr className={hr} /></h2>
 				
 
-				<div className="row d-flex justify-content-center alogn-items-center">
-					<div className="col-lg-4 p-3">
+				<div className="row d-flex justify-content-center align-items-center">
+					<div className="col-lg-4 col-sm-10 p-3">
 						<Card className={card} >
 							<Card.Img
 								variant="top"
@@ -34,7 +34,7 @@ const EnCours = () => {
                 <div className={`mb-4 ${bar}`}>
 									<div className={inner_bar}></div>
 								</div>
-								<Button className={`${btn} ${btn__yellow}`}>
+								<Button className={`ml-0 ${btn} ${btn__yellow}`}>
 									Contactez-nous
 								</Button>
 
@@ -42,7 +42,7 @@ const EnCours = () => {
 							</Card.Body>
 						</Card>
 					</div>
-					<div className="col-lg-4 p-3">
+					<div className="col-lg-4 col-sm-10 p-3">
 						<Card className={card} >
 							<Card.Img
 								variant="top"
@@ -61,7 +61,7 @@ const EnCours = () => {
                 <div className={`mb-4 ${bar}`}>
 									<div className={inner_bar}></div>
 								</div>
-								<Button className={`${btn} ${btn__yellow}`}>
+								<Button className={`ml-0 ${btn} ${btn__yellow}`}>
 									Contactez-nous
 								</Button>
 
@@ -69,7 +69,7 @@ const EnCours = () => {
 							</Card.Body>
 						</Card>
 					</div>
-					<div className="col-lg-4 p-3">
+					<div className="col-lg-4 col-sm-10 p-3">
 						<Card className={card} >
 							<Card.Img
 								variant="top"
@@ -88,7 +88,7 @@ const EnCours = () => {
                 <div className={`mb-4 ${bar}`}>
 									<div className={inner_bar}></div>
 								</div>
-								<Button className={`${btn} ${btn__yellow}`}>
+								<Button className={`ml-0 ${btn} ${btn__yellow}`}>
 									Contactez-nous
 								</Button>
 
