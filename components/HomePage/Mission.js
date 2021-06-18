@@ -10,10 +10,7 @@ const Mission = () => {
           <hr className={hr} />
         </div>
 
-        <p className="lead px-md-5 px-3 mb-5 mb-md-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum tempora voluptas ipsam a nihil ratione pariatur reprehenderit quae, velit ullam ex qui voluptates optio aspernatur culpa nisi neque nobis dignissimos quo? Molestias placeat eius rerum expedita fugiat ea dolores adipisci excepturi 
-        exercitationem recusandae temporibus mollitia blanditiis, dolorem doloremque ipsa sunt officiis ex? Vitae labore, doloremque vero incidunt quis, fugiat explicabo eligendi dignissimos, eius earum praesentium exercitationem. 
-        Ea nostrum error voluptate officiis illo, dolorem distinctio magnam atque sunt molestias qui corporis nihil assumenda voluptatem debitis vero porro impedit aut tempore eveniet laboriosam illum quod! A, harum accusamus. 
-        Numquam, doloremque sint.</p>
+        <p className="lead px-md-5 px-3 mb-5 mb-md-0">Nous nous engageons à garantir la qualité du travail et du service à la clientèle et maintenir le plus haut niveau de professionnalisme, d'honnêteté et d'équité dans nos relations avec nos clients, nos employés et nos fournisseurs. Se développer en fournissant continuellement des produits, des services et des solutions utiles et significatifs aux marchés que nous servons déjà - et se développer dans de nouveaux domaines qui s'appuient sur nos compétences et les intérêts de nos clients.</p>
 
       </div>
     </div>
