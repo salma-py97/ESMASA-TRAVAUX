@@ -20,7 +20,7 @@ const EnCours = () => {
 							<Card.Img
 								variant="top"
 								src="https://i.ibb.co/qFxkz9j/image-10.png"
-							/>
+								alt=""/>
 							<Card.Body>
 								<Card.Title className={card_title}>Nom du Projet</Card.Title>
 								<Card.Text className={card_text}>
@@ -47,7 +47,7 @@ const EnCours = () => {
 							<Card.Img
 								variant="top"
 								src="https://i.ibb.co/qFxkz9j/image-10.png"
-							/>
+								alt=""/>
 							<Card.Body>
 								<Card.Title className={card_title}>Nom du Projet</Card.Title>
 								<Card.Text className={card_text}>
@@ -74,7 +74,7 @@ const EnCours = () => {
 							<Card.Img
 								variant="top"
 								src="https://i.ibb.co/qFxkz9j/image-10.png"
-							/>
+								alt=""/>
 							<Card.Body>
 								<Card.Title className={card_title}>Nom du Projet</Card.Title>
 								<Card.Text className={card_text}>
