@@ -21,11 +21,22 @@
   margin-top: 2rem;
 }
 .confiance_title{
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #4781C9;
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .confiance_title{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .confiance_title{
+    font-size: 1.1rem;
+  }
 }
 
 .row{

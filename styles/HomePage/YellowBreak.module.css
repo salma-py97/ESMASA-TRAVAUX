@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
 
 .bg {
-  min-height: 50vh;
   font-family: 'Montserrat', sans-serif;
   background-image: url("https://i.ibb.co/c3Vb2sz/construction-yellow-background.png");
   background-position: center;

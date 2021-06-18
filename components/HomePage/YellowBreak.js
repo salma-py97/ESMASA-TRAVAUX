@@ -6,7 +6,7 @@ const YellowBreak = () => {
   const {bg, hr} = styles
   const {btn, btn__outline, btn__wide} = buttonStyles
   return (
-    <div className={`text-white text-center d-flex justify-content-center align-items-center ${bg}`}>
+    <div className={`text-white text-center d-flex justify-content-center align-items-center py-5 ${bg}`}>
       <div className="py-5 d-flex justify-content-between align-items-center flex-column" >
       <h2 className="text-center mb-0">NOS PROJETS</h2>
       <hr className={hr} />
