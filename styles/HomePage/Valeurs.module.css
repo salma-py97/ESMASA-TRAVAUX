@@ -6,6 +6,8 @@
   /* background-image: url('https://i.ibb.co/LJh5RPt/image-8.png'); */
   background-image: url('https://preview.colorlib.com/theme/webuilder/img/work-bg.jpg.webp');
   background-image: url('https://i.ibb.co/KFmNk0R/service-bg.jpg');
+  background-image: url('https://i.ibb.co/37RnrMY/image-13.png');
+  background-image: url('https://i.ibb.co/9bDNyhR/slider-bg.jpg');
   /* https://i.ibb.co/1skcfGb/image-9.png
 
   https://i.ibb.co/HdYqJ7Z/constr-Footer.jpg */
@@ -26,7 +28,7 @@
   height: 100%;
   width: 100%;
   /* z-index: -1; */
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .wrapper {
@@ -42,6 +44,11 @@
 }
 
 .value_title{
-  color: #DB545A;
+  /* color: #DB545A; */
+  color: #555;
+  color: #f4F4F4;
   font-weight: 600;
+}
+.box:hover .value_title {
+  color: var(--yellow);
 }
