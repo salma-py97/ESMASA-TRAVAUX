@@ -11,8 +11,7 @@ const Mission = () => {
         </div>
 
         <p className="lead px-md-5 px-3 mb-5 mb-md-0">Garantir la meilleure qualité du travail et du service à la clientèle et maintenir le plus haut niveau de professionnalisme, d'honnêteté et d'équité dans nos relations avec nos clients, nos employés et nos fournisseurs. <br /><br />
-        Nous nous engageons à se développer en fournissant continuellement des produits, des services et des solutions utiles et significatifs aux marchés que nous servons déjà, et se développer dans de nouveaux domaines qui s'appuient sur nos compétences et les intérêts de nos clients.</p>
-
+        Nous nous engageons à se développer en fournissant continuellement des produits, des services et des solutions simples et efficaces aux marchés que nous servons déjà, et se lancer dans de nouveaux domaines qui s'appuient sur nos compétences et les intérêts de nos clients.</p>
       </div>
     </div>
   )
