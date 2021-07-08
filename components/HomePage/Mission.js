@@ -15,23 +15,14 @@ const Mission = () => {
 				</div>
 
 				<p className="lead px-md-5 px-3 mb-5 mb-md-0">
-					Garantir la meilleure qualité du travail, des produits et des services
-					à nos clients en assurant le plus haut niveau de sécurité, d'intégrité
-					et d'innovation, tout en respectant l'environnement et en favorisant
-					le développement de nos employés et de nos communautés.
+				Garantir la la satisfaction de nos clients et fournir des produits et des services de qualité en assurant la sécurité, l'hygiène et la santé au travail, tout en respectant l'environnement et en favorisant le développement des compétences de nos employés.
 					<br />
 					<br />
-					Maintenir le plus haut niveau de professionnalisme, d'honnêteté et
-					d'équité dans nos relations avec nos clients, nos employés et nos
-					fournisseurs afin d'être le prestataire de choix pour les services de
-					construction en surpassant les exigences et les attentes des clients
-					et en apportant une valeur inégalée.
+				Maintenir le plus haut niveau de professionnalisme, d'honnêteté et d'équité dans nos relations avec nos clients, nos employés et nos fournisseurs afin d'être le prestataire le plus qualifié pour des travaux de génie civil et bâtiments en satisfaisant les exigences et les attentes des clients.
 					<br />
 					<br />
-					Nous nous engageons à se développer en fournissant continuellement des
-					produits, des services et des solutions simples et efficaces aux
-					marchés que nous servons déjà, et se lancer dans de nouveaux domaines
-					qui s'appuient sur nos compétences et les intérêts de nos clients.
+				Nous nous engageons à se développer en fournissant continuellement des produits, des services et des solutions simples et efficaces en assurant une veille technologique et en intégrant de nouveaux services qui s'appuient sur nos compétences et les perspectives de nos clients.
+
 				</p>
 			</div>
 		</div>

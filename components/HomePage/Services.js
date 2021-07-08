@@ -31,9 +31,8 @@ const Services = () => {
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
 							Construction Bâtiment
 						</h4>
-						<p className="mb-5 px-4">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-							deleniti provident
+						<p className="mb-5 px-5 px-md-4">
+						ESMASA Travaux accompagne les industriels dans la construction et aménagement des bâtiments.
 						</p>
 						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
@@ -49,9 +48,8 @@ const Services = () => {
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
 							Génie civil / Fondation
 						</h4>
-						<p className="mb-5 px-4">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-							deleniti provident
+						<p className="mb-4 px-5 px-md-4">
+						ESMASA Travaux accompagne les donneurs d’ordre publics et privés dans la réalisation clefs en mains des travaux de génie civil.
 						</p>
 						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
@@ -65,8 +63,8 @@ const Services = () => {
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 							<div className={`${img}`}>
 							<Image src="https://i.ibb.co/F8pwNzw/image-11.png" 
-							height={95}
-							width={80}
+							height={85}
+							width={75}
 							quality={100}
 							alt=""
 						/>
@@ -74,9 +72,8 @@ const Services = () => {
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
 							Revêtement / étanchéité
 						</h4>
-						<p className="mb-5 px-4">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-							deleniti provident
+						<p className="mb-4 px-5 px-md-4">
+						Esmasa Travaux offre des services de haute qualité de revêtement et étanchéité pour éviter les dommages à la structure des bâtiments.
 						</p>
 						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
@@ -89,12 +86,14 @@ const Services = () => {
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						{/* <GiBrickWall className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
 						<GiElectric className="text-warning mt-5 mb-4" fontSize="5rem" />
-						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
-							électricité intérieure
+						<h4 className={`mt-2 mb-4 text-uppercase d-none d-md-block d-lg-none ${service}`}>
+							électricité/Climatisation
 						</h4>
-						<p className="mb-5 px-4">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-							deleniti provident
+						<h4 className={`mt-2 mb-4 text-uppercase d-block d-md-none d-lg-block ${service}`}>
+							électricité / Climatisation
+						</h4>
+						<p className="mb-5 px-5 px-md-4">
+						ESMASA Travaux met son expertise dans l’électricité bâtiments à la disposition de ses clients.
 						</p>
 						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
@@ -109,9 +108,8 @@ const Services = () => {
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
 							Travaux d'aménagement
 						</h4>
-						<p className="mb-5 px-4">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-							deleniti provident
+						<p className="mb-4 px-5 px-md-4">
+						Vu sa grande expérience dans le domaine, ESMASA Travaux est qualifié dans la réalisation de tous les travaux d'aménagement.
 						</p>
 						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
@@ -126,8 +124,8 @@ const Services = () => {
 						{/* <BiTrafficCone className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
 						<div className={`${img}`}>
 							<Image src="https://i.ibb.co/PzbVQ9s/image-12.png" 
-							height={95}
-							width={80}
+							height={85}
+							width={75}
 							quality={100}
 							alt=""
 							// height={115}
@@ -139,9 +137,8 @@ const Services = () => {
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
 							Travaux d'assainissement
 						</h4>
-						<p className={`mb-5 ${p}`}>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-							deleniti provident
+						<p className={`mb-4 px-5 px-md-3 ${p}`}>
+						ESMASA Travaux dispose des compétences techniques solides dans la réalisation des infrastructures d’alimentation en eau potable.
 						</p>
 						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>

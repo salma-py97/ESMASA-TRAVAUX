@@ -11,6 +11,9 @@
 }
 .service_col {
   border: 2px solid #ccc;
+  min-height: 432px;
+  /* max-height: 470px; */
+  /* height: 432px; */
 }
 
 .nos_services {
@@ -31,12 +34,13 @@
   padding: 0;
 
 }
-.p{
+/* .p{
   padding-right: 1.75rem;
   padding-left: 1.75rem;
-}
+} */
 
 .img{
-  margin-top: 1.95rem;
+  /* margin-top: 1.95rem; */
+  margin-top: 2.7rem;
   margin-bottom: 1.8rem;
 }

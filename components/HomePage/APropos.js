@@ -15,7 +15,15 @@ const APropos = () => {
           {/* <p className={`${desc}`}>Planification effective, conception efficiente et construction de qualité</p> */}
         </div>
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
-          <p>Esmasa a été fondée en 2008 avec pour finalité de ...... Avec plus de 20 ans d'expérience professionnelle dans le secteur de la construction, nous avons entrepris de nombreux projets exigeants et accumulé des compétences, du savoir-faire et de l'expérience en matière de conception et de construction, de services de gestion de projets, de métiers du bâtiment et de travaux d'ingénierie. Aujourd'hui, Esmasa offre des services de gestion et coordonne des métiers spécialisés pour des projets industriels/commerciaux. Esmasa est fière de sa gestion moderne et de son personnel technique qualifié et professionnel, utilisant des systèmes organisationnels efficaces pour diversifier ses activités liées au domaine de la construction qui couvrent toute la gamme des services auxiliaires.</p>
+          <p>Esmasa Travaux a été fondée en 2008 avec pour finalité la réalisation clef en mains des travaux de génie civil et assainissement...  
+          </p>
+          <p>
+          Avec plus de 13 ans d'expérience dans le secteur de la construction des bâtiments, nous avons entrepris de nombreux projets ambitieux avec des clients de renom. </p>
+          <p>
+          Ayant par ailleurs, accumulé des compétences techniques, du savoir-faire en matière de conception, études et réalisation des infrastructures. </p>
+          <p>
+          Esmasa Travaux est fière de sa gestion moderne et de son personnel technique qualifié et professionnel, utilisant des systèmes organisationnels efficaces pour diversifier ses activités liées au domaine de Génie civil et assainissement qui couvrent toute la gamme des services.
+          </p>
           <div className="d-flex flex-wrap">
           <Link href="/contact">
             <Button className={`ml-0 ${btn} ${btn__yellow}`}>Contactez-nous</Button>
