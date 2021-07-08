@@ -1,10 +1,11 @@
 .wrapper {
 	position: relative;
 	background-image: url("https://i.ibb.co/L0yk8QS/construction-crane.png");
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: 510px;
 }
+
 
 .icon {
 	color: var(--yellow);
@@ -19,6 +20,7 @@
 	height: 80px;
 	width: 80px;
 	z-index: 3;
+	margin-top: 1rem;
 }
 .row:hover .bg{
 	background-color: #989898;
@@ -32,14 +34,18 @@
 }
 
 .line1,
-.line2 {
+.line2,
+.line4,
+.line5 {
 	position: absolute;
-	height: 75%;
+	height: 70%;
 	width: 3px;
-	top: 50%;
+	top: 42%;
 	transform: translateY(-50%);
 	background-color: #ccc;
 }
+
+
 .line3{
 	position: absolute;
 	height: 25%;
@@ -49,12 +55,29 @@
 	transform: translateY(-50%);
 	background-color: #ccc;
 }
-
 .line1 {
 	left: 80%;
 }
 .line2 {
 	right: 80%;
+}
+.line4,
+.line5 {
+	position: absolute;
+	height: 74%;
+	width: 2px;
+	top: 41%;
+	transform: translateY(-50%);
+	background-color: #ccc;
+	display: none;
+}
+.line4 {
+	left: 32%;
+}
+.line5 {
+	top: 36%;
+	height: 64%;
+	right: 31.85%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -72,11 +95,21 @@
 @media screen and (max-width: 768px) {
 	.line2 {
 		left: 13% !important;
+		height: 75%;
 	}
 }
 @media screen and (min-width: 768px) {
 	.line3{
 		display: none;
+	}
+	.service {
+		min-height: 310px;
+	}
+}
+@media screen and (min-width: 550px) {
+
+	.service {
+		min-height: 150px;
 	}
 }
 
@@ -84,5 +117,9 @@
 	.line1,
 	.line2 {
 		display: none;
+	}
+	.line4,
+	.line5 {
+		display: block;
 	}
 }
