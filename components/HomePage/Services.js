@@ -23,6 +23,8 @@ const Services = () => {
 				<h2 className={nos_services}>Nos Services</h2>
 				<hr className={hr} />
 			</div>
+			{/* Construction de qualité
+			Notre expertise est mise à profit pour un large éventail de projets, y compris des immeubles de grande et de faible hauteur, des bâtiments publics et institutionnels. */}
 
 			<div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex justify-content-center align-items-center my-4">
 				<div className="col p-3">
