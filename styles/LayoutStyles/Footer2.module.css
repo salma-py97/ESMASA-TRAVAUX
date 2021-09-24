@@ -15,7 +15,7 @@
 	color: #ccc;
 	padding-bottom: 0px;
 	margin-bottom: 8px;
-	text-align: justify;
+	/* text-align: justify; */
 }
 
 .footer_ul {
@@ -49,6 +49,7 @@
 .contact_inner{
 	/* font-size: 16px; */
 	font-size: 14px;
+	/* text-align: left; */
 }
 
 .social_footer a {

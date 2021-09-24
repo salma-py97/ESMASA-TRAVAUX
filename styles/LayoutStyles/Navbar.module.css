@@ -106,7 +106,7 @@
 	.NavbarItems {
 		position: relative;
 	}
-
+	
 	.nav_menu {
 		display: flex;
 		align-items: center;
@@ -122,8 +122,9 @@
 		opacity: 1;
 		transition: all 0.5s ease;
 		margin-top: 1rem;
+		border: 2px solid blue;
 	}
-
+	
 	.nav_menu.active {
 		/* background: #1c2237; */
 		background: #1e2d3b;
@@ -134,8 +135,9 @@
 		z-index: 1;
 		color: #fff;
 	}
-
+	
 	p.nav_links {
+		border: 2px solid red;
 		text-align: center;
 		padding: 2rem;
 		width: 100%;
@@ -145,23 +147,25 @@
 		cursor: pointer;
 		margin-top: 20px;
 	}
-
+	
 	.nav_links:hover {
 		color: var(--yellow) !important;
 		transition: all 0.3s ease;
 		background-color: #fff;
 	}
-
+	
 	.nav_item:hover {
 		border: none;
 	}
-
+	
 	.nav_item {
+		border: 2px solid green;
 		width: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
+		
 	}
 
 	.menu_icon {

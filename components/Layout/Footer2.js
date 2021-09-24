@@ -53,12 +53,12 @@ const Footer2 = () => {
 						<div className="col-md-3">
 							<h4 className="pt-5 pb-3 text-white">Nos Services</h4>
 							<ul className={`${footer_ul} pl-3`}>
-								<li>Lorem, ipsum.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
+								<li>Construction Bâtiment</li>
+								<li>Génie civil / Fondation</li>
+								<li>Revêtement / Étanchéité</li>
+								<li>Électricité / Climatisation</li>
+								<li>Travaux d'Aménagement</li>
+								<li>Travaux d'assainissement</li>
 							</ul>
 						</div>
 
@@ -70,8 +70,8 @@ const Footer2 = () => {
 								</div>
 								<div className="col-9">
 									<p className={`${contact_inner}`}>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-										Provident, dignissimos.{" "}
+										15 Boulevard Abdelmoumen, étage 2, appartement N°6 - Mohammedia.
+										{" "}
 									</p>
 								</div>
 							</div>
@@ -81,7 +81,7 @@ const Footer2 = () => {
 									<FaPhoneAlt className="text-white" fontSize={20} />
 								</div>
 								<div className="col-9">
-									<p className={`${contact_inner}`}>+212 (05) 634567890 </p>
+									<p className={`${contact_inner}`}>+212 (05) 23321720 </p>
 								</div>
 							</div>
 							<div className="row d-flex justify-content-around align-items-center mb-3">
@@ -115,9 +115,9 @@ const Footer2 = () => {
 								<div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
 									<Link href="/projets">Projets</Link>
 								</div>
-								<div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
+								{/* <div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
 									<Link href="/sécurité">Sécurité</Link>
-								</div>
+								</div> */}
 								<div className="col-md-2 p-0 mx-0 my-2 d-flex justify-content-center align-items-center text-center">
 									<Link href="/contact">Contact</Link>
 								</div>

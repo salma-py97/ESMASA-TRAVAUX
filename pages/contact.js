@@ -34,7 +34,7 @@ const contact = () => {
   
 	return (
     <div className={`m-0 ${wrapper}`}>
-			<div className={`d-none d-lg-block ${yellow_div}`}></div>
+			{/* <div className={`d-none d-lg-block ${yellow_div}`}></div> */}
       <div className={`d-flex flex-column justify-content-center align-items-center text-center mx-auto p-0 ${travaillons_ensemble}`}>
         <h1 className={`p-0 m-0 text-white ${title}`}>Contactez-nous!</h1>
 				<hr className={hr} />
@@ -48,8 +48,8 @@ const contact = () => {
               <FaPhoneAlt />
             </div>
             <h4 className={`mb-4 ${contact_info_title}`}>Contactez-nous</h4>
-            <p className={`m-0 ${contact_info_details}`}>Tel: 0522445566</p>
-            <p className={`m-0 ${contact_info_details}`}>Fax: 1326479836</p>
+            <p className={`m-0 ${contact_info_details}`}>Tel: 0523321720</p>
+            <p className={`m-0 ${contact_info_details}`}>Fax: 0523321722</p>
 
           </div>
           <div className="col-md-7 col-lg-3 py-5 d-flex flex-column justify-content-center align-items-center mb-3 mb-lg-0 bg-white">
@@ -57,7 +57,7 @@ const contact = () => {
               <IoMdMail />
             </div>
             <h4 className={`mb-4 ${contact_info_title}`}>Email</h4>
-            <p className={`m-0 ${contact_info_details}`}>support@esmasa-travaux.com</p>
+            <p className={`m-0 ${contact_info_details}`}>esmasatravaux@gmail.com</p>
             <p className={`m-0 ${contact_info_details}`}>admin@esmasa-travaux.com</p>
             
           </div>
@@ -66,8 +66,8 @@ const contact = () => {
               <MdLocationOn />
             </div>
             <h4 className={`mb-4 ${contact_info_title}`}>Adresse</h4>
-            <p className={`m-0 ${contact_info_details}`}>Mohammedia</p>
-            <p className={`m-0 ${contact_info_details}`}>Grand Casablanca, Maroc</p>
+            <p className={`m-0 ${contact_info_details}`}>15 Boulevard Abdelmoumen, étage 2, appartement N°6, Mohammedia</p>
+            {/* <p className={`m-0 ${contact_info_details}`}>, Maroc</p> */}
             
           </div>
         </div>
