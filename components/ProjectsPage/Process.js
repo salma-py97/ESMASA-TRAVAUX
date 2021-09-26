@@ -66,7 +66,7 @@ const Process = () => {
               alt=""
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>03</h1>
-            <h5>REALISATION</h5>
+            <h5>RÉALISATION</h5>
             <p className={`text-center text-dark`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet?</p>
           </div>
         </div>
