@@ -58,7 +58,7 @@ const contact = () => {
             </div>
             <h4 className={`mb-4 ${contact_info_title}`}>Email</h4>
             <p className={`m-0 ${contact_info_details}`}>esmasatravaux@gmail.com</p>
-            <p className={`m-0 ${contact_info_details}`}>admin@esmasa-travaux.com</p>
+            <p className={`m-0 ${contact_info_details}`}>contact@esmasatravaux.com</p>
             
           </div>
           <div className="col-md-7 col-lg-3 py-5 d-flex flex-column justify-content-center align-items-center mb-0 bg-white">
