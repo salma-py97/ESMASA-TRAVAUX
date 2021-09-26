@@ -66,7 +66,7 @@ const contact = () => {
               <MdLocationOn />
             </div>
             <h4 className={`mb-4 ${contact_info_title}`}>Adresse</h4>
-            <p className={`m-0 ${contact_info_details}`}>15 Boulevard Abdelmoumen, étage 2, appartement 6, Mohammedia</p>
+            <p className={`m-0 ${contact_info_details}`}>15 Blrd Abdelmoumen, étage 2, appartement 6, Mohammedia</p>
             {/* <p className={`m-0 ${contact_info_details}`}>, Maroc</p> */}
             
           </div>
