@@ -26,12 +26,12 @@ const Choisir = () => {
 							</div>
 							<div className="col-9">
 								{/* <h3 className={reason_title}>We are Sustainable</h3> */}
-								<h3 className={reason_title}>Durabilité</h3>
+								<h3 className={reason_title}>Pérennité & Durabilité</h3>
 								<p className={reason}>
 									{/* We work hard at maintaining a clean and healthy environment
 									for our workers, neighbours, and end users. We strive for long
 									term success for our company, clients and our environment. */}
-                  Nous nous engageons à maintenir un environnement propre et sain pour nos travailleurs, nos voisins et nos clients. Nous nous efforçons de garantir le succès à long terme de tous nos projets.
+                  Nous nous engageons à maintenir un environnement propre et sain pour nos employés, nos clients et partenaires. Nous nous efforçons de garantir le succès à long terme de tous nos projets.
 								</p>
 							</div>
 						</div>
