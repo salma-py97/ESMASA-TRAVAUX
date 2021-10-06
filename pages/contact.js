@@ -200,7 +200,9 @@ const contact = () => {
 							</label>
 						</div>
 						<div className={`${form_field} col-lg-12`}>
-							<button type="submit" className={submit_btn} onClick={sendMessage()}>
+							<button type="submit" className={submit_btn} 
+							// onClick={sendMessage()}
+							>
 								ENVOYEZ
 							</button>
 						</div>
