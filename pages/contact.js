@@ -4,13 +4,37 @@ import {FaPhoneAlt} from 'react-icons/fa'
 import {IoMdMail} from 'react-icons/io'
 import {MdLocationOn} from 'react-icons/md'
 
+// import db from './firebase'
+
+
 const contact = () => {
+	const [fullName, setFullName] = useState("")
+	const [email, setEmail] = useState("")
+	const [phone, setPhone] = useState("")
+	const [company, setCompany] = useState("")
+	const [service, setService] = useState("")
 	const [msg, setMsg] = useState("")
 
 	useEffect(() => {
 		const textarea = document.querySelector("textarea")
 		textarea.style.height = textarea.scrollHeight + "px"
 	}, [msg])
+
+	// // send message to firebase
+	// const sendMessage = e => {
+	// 	e.preventDefault()
+
+	// 	// populate messages collection
+	// 	db.collection('messages').add({
+	// 		Email: email,
+	// 		Nom: fullName,
+	// 		Message: msg,
+	// 		Service: service,
+	// 		Téléphone: phone,
+	// 		Société: company
+	// 	})
+	// }
+ 
 
 	const {
 		get_in_touch,
@@ -90,10 +114,12 @@ const contact = () => {
 								className={`${input_text} ${input}`}
 								type="text"
 								name="nom"
-								autocomplete="off"
+								autoComplete="off"
 								required
+								value={fullName}
+								onChange={e=> setFullName(e.target.value)}
 							/>
-							<label className={label} for="name">
+							<label className={label} htmlFor="name">
 								Nom - Prénom
 							</label>
 						</div>
@@ -103,10 +129,12 @@ const contact = () => {
 								className={`${input_text} ${input}`}
 								type="email"
 								name="email"
-								autocomplete="off"
+								autoComplete="off"
 								required
+								value={email}
+								onChange={e=> setEmail(e.target.value)}
 							/>
-							<label className={label} for="email">
+							<label className={label} htmlFor="email">
 								E-mail
 							</label>
 						</div>
@@ -116,10 +144,12 @@ const contact = () => {
 								className={`${input_text} ${input}`}
 								type="text"
 								name="société"
-								autocomplete="off"
+								autoComplete="off"
 								required
+								value={company}
+								onChange={e=> setCompany(e.target.value)}
 							/>
-							<label className={label} for="company">
+							<label className={label} htmlFor="company">
 								Société
 							</label>
 						</div>
@@ -129,10 +159,12 @@ const contact = () => {
 								className={`${input_text} ${input}`}
 								type="text"
 								name="téléphone"
-								autocomplete="off"
+								autoComplete="off"
 								required
+								value={phone}
+								onChange={e=> setPhone(e.target.value)}
 							/>
-							<label className={label} for="phone">
+							<label className={label} htmlFor="phone">
 								Téléphone
 							</label>
 						</div>
@@ -141,15 +173,16 @@ const contact = () => {
 								className={`${input_text} ${input}`}
 								name="Service"
 								required
+								value={service}
+								onChange={e => setService(e.target.value)}
 							>
 								<option aria-invalid="true"></option>
-								<option>XXXXXXXXXXXXXXXXX</option>
-								<option>XXXXXXXXXXXXXXXXX</option>
-								<option>XXXXXXXXXXXXXXXXX</option>
-								<option>XXXXXXXXXXXXXXXXX</option>
-								<option>XXXXXXXXXXXXXXXXX</option>
-								<option>XXXXXXXXXXXXXXXXX</option>
-								<option>XXXXXXXXXXXXXXXXX</option>
+								<option>Construction Bâtiment</option>
+								<option>Génie civil / Fondation</option>
+								<option>Revêtement / Étanchéité</option>
+								<option>Électricité / Climatisation</option>
+								<option>Travaux d'Aménagement</option>
+								<option>Travaux d'assainissement</option>
 							</select>
 							<label className={label}>Choisissez un service</label>
 						</div>
@@ -162,12 +195,12 @@ const contact = () => {
 								value={msg}
 								onChange={(e) => setMsg(e.target.value)}
 							></textarea>
-							<label className={label} for="message">
+							<label className={label} htmlFor="message">
 								Message
 							</label>
 						</div>
 						<div className={`${form_field} col-lg-12`}>
-							<button type="submit" className={submit_btn}>
+							<button type="submit" className={submit_btn} onClick={sendMessage()}>
 								ENVOYEZ
 							</button>
 						</div>
