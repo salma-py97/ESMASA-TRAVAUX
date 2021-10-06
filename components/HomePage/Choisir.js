@@ -25,7 +25,8 @@ const Choisir = () => {
 								<HandThumbsUp className="text-white mt-3" size={76} />
 							</div>
 							<div className="col-9">
-								<h3 className={reason_title}>We are Sustainable</h3>
+								{/* <h3 className={reason_title}>We are Sustainable</h3> */}
+								<h3 className={reason_title}>Durabilité</h3>
 								<p className={reason}>
 									{/* We work hard at maintaining a clean and healthy environment
 									for our workers, neighbours, and end users. We strive for long
@@ -48,7 +49,8 @@ const Choisir = () => {
 								</div>
 							</div>
 							<div className="col-9">
-								<h3 className={reason_title}>Quality Construction</h3>
+								{/* <h3 className={reason_title}>Quality Construction</h3> */}
+								<h3 className={reason_title}>Travaux de qualité</h3>
 								<p className={reason}>
 									{/* Our expertise is commissioned for a wide range of projects
 									including high-rises and low-rises, public and institutional
@@ -71,13 +73,14 @@ const Choisir = () => {
 								</div>
 							</div>
 							<div className="col-9">
-								<h3 className={reason_title}>Professional Team</h3>
+								<h3 className={reason_title}>Équipe professionnelle</h3>
 								<p className={reason}>
 									{/* ESMASA Travaux takes pride in its modern management and highly
 									professional technical personnel. We are fully bonded and
 									insured. Our workers are trained with the latest industry
 									safety standards and requirements. */}
-                  ESMASA Travaux est fière de sa gestion moderne et de son personnel technique hautement qualifié. Nous sommes entièrement cautionnés et assurés. Nos travailleurs sont formés aux dernières normes de sécurité normes et exigences de sécurité de l'industrie.
+                  {/* ESMASA Travaux est fière de sa gestion moderne et de son personnel technique hautement qualifié. Nous sommes entièrement cautionnés et assurés. Nos travailleurs sont formés aux dernières normes de sécurité normes et exigences de sécurité de l'industrie. */}
+                  ESMASA opère avec une gestion moderne et un personnel technique hautement qualifié. Nous sommes entièrement cautionnés et assurés. Nos travailleurs sont formés aux dernières normes de sécurité et aux exigences du secteur.
 								</p>
 							</div>
 						</div>
@@ -95,7 +98,7 @@ const Choisir = () => {
 								</div>
 							</div>
 							<div className="col-9">
-								<h3 className={reason_title}>Top Materials</h3>
+								<h3 className={reason_title}>Matériaux supérieurs</h3>
 								<p className={reason}>
 									From the alteration and restoration to stone and steel column
 									retro fit or ornamental iron and sheet metal replacement, and
@@ -118,7 +121,7 @@ const Choisir = () => {
 								</div>
 							</div>
 							<div className="col-9">
-								<h3 className={reason_title}>Health and Safety</h3>
+								<h3 className={reason_title}>Santé & Sécurité</h3>
 								<p className={reason}>
 									{/* ESMASA Travaux is committed to take every reasonable
 									precaution to prevent injuries and maintain a safe and healthy
@@ -187,11 +190,12 @@ const Choisir = () => {
 								</div>
 							</div>
 							<div className="col-9">
-								<h3 className={reason_title}>Innovative</h3>
+								<h3 className={reason_title}>Innovation</h3>
 								<p className={reason}>
-									One of our objectives is to satisfy clients' requirements by
+									{/* One of our objectives is to satisfy clients' requirements by
 									building complex projects at the highest technological and
-									quality level
+									quality level */}
+                  L'un de nos objectifs est de répondre aux exigences des clients en innovant la réalisation de nos projets complexes au niveau technique et qualitatif.
 								</p>
 							</div>
 						</div>
