@@ -8,11 +8,11 @@ import {MdLocationOn} from 'react-icons/md'
 
 
 const contact = () => {
-	const [fullName, setFullName] = useState("")
-	const [email, setEmail] = useState("")
-	const [phone, setPhone] = useState("")
-	const [company, setCompany] = useState("")
-	const [service, setService] = useState("")
+	// const [fullName, setFullName] = useState("")
+	// const [email, setEmail] = useState("")
+	// const [phone, setPhone] = useState("")
+	// const [company, setCompany] = useState("")
+	// const [service, setService] = useState("")
 	const [msg, setMsg] = useState("")
 
 	useEffect(() => {
@@ -116,8 +116,8 @@ const contact = () => {
 								name="nom"
 								autoComplete="off"
 								required
-								value={fullName}
-								onChange={e=> setFullName(e.target.value)}
+								// value={fullName}
+								// onChange={e=> setFullName(e.target.value)}
 							/>
 							<label className={label} htmlFor="name">
 								Nom - Prénom
@@ -131,8 +131,8 @@ const contact = () => {
 								name="email"
 								autoComplete="off"
 								required
-								value={email}
-								onChange={e=> setEmail(e.target.value)}
+								// value={email}
+								// onChange={e=> setEmail(e.target.value)}
 							/>
 							<label className={label} htmlFor="email">
 								E-mail
@@ -146,8 +146,8 @@ const contact = () => {
 								name="société"
 								autoComplete="off"
 								required
-								value={company}
-								onChange={e=> setCompany(e.target.value)}
+								// value={company}
+								// onChange={e=> setCompany(e.target.value)}
 							/>
 							<label className={label} htmlFor="company">
 								Société
@@ -161,8 +161,8 @@ const contact = () => {
 								name="téléphone"
 								autoComplete="off"
 								required
-								value={phone}
-								onChange={e=> setPhone(e.target.value)}
+								// value={phone}
+								// onChange={e=> setPhone(e.target.value)}
 							/>
 							<label className={label} htmlFor="phone">
 								Téléphone
@@ -173,8 +173,8 @@ const contact = () => {
 								className={`${input_text} ${input}`}
 								name="Service"
 								required
-								value={service}
-								onChange={e => setService(e.target.value)}
+								// value={service}
+								// onChange={e => setService(e.target.value)}
 							>
 								<option aria-invalid="true"></option>
 								<option>Construction Bâtiment</option>
