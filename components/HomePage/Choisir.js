@@ -80,7 +80,7 @@ const Choisir = () => {
 									insured. Our workers are trained with the latest industry
 									safety standards and requirements. */}
                   {/* ESMASA Travaux est fière de sa gestion moderne et de son personnel technique hautement qualifié. Nous sommes entièrement cautionnés et assurés. Nos travailleurs sont formés aux dernières normes de sécurité normes et exigences de sécurité de l'industrie. */}
-                  ESMASA opère avec une gestion moderne et un personnel technique hautement qualifié. Nous sommes entièrement cautionnés et assurés. Nos travailleurs sont formés aux dernières normes de sécurité et aux exigences du secteur.
+                  ESMASA Travaux dispose d'une gestion moderne et d'un personnel technique hautement qualifié. Nous sommes entièrement cautionnés et assurés. Nos travailleurs sont formés aux dernières normes de sécurité et aux exigences du secteur.
 								</p>
 							</div>
 						</div>
@@ -126,7 +126,7 @@ const Choisir = () => {
 									{/* ESMASA Travaux is committed to take every reasonable
 									precaution to prevent injuries and maintain a safe and healthy
 									environment. */}
-                  ESMASA Travaux s'engage à prendre toutes les précautions pour éviter les incidents et maintenir un environnement sûr et sain.
+                  Nous nous engageons à prendre toutes les précautions pour éviter les incidents et maintenir un environnement sécurisé et sain.
 								</p>
 							</div>
 						</div>
@@ -195,7 +195,7 @@ const Choisir = () => {
 									{/* One of our objectives is to satisfy clients' requirements by
 									building complex projects at the highest technological and
 									quality level */}
-                  L'un de nos objectifs est de répondre aux exigences des clients en innovant la réalisation de nos projets complexes au niveau technique et qualitatif.
+                  L'un de nos objectifs est de satisfaire davantage les attentes de nos clients en innovant la réalisation de nos projets complexes au niveau technique et offrir un service de qualité.
 								</p>
 							</div>
 						</div>
