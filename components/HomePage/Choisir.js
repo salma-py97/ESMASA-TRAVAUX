@@ -106,7 +106,8 @@ const Choisir = () => {
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
 									<Image
-										src="https://i.ibb.co/bFbjzmR/image-3.png"
+										// src="https://i.ibb.co/bFbjzmR/image-3.png"
+										src="https://i.ibb.co/SwPhnYF/output-onlinepngtools-1.png"
 										height={76}
 										width={76}
 										alt="icon"
@@ -152,7 +153,8 @@ const Choisir = () => {
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
 									<Image
-										src="https://i.ibb.co/xSDQTRH/image-4.png"
+										// src="https://i.ibb.co/xSDQTRH/image-4.png"
+										src="https://i.ibb.co/Smc8nFy/output-onlinepngtools-3.png"
 										height={76}
 										width={76}
 										alt="icon"
