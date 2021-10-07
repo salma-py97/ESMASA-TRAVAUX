@@ -51,7 +51,7 @@ const Choisir = () => {
 							</div>
 							<div className="col-9">
 								{/* <h3 className={reason_title}>Quality Construction</h3> */}
-								<h3 className={reason_title}>RSE</h3>
+								<h3 className={reason_title}>Responsabilité sociétale</h3>
 								<p className={reason}>
 									{/* Our expertise is commissioned for a wide range of projects
 									including high-rises and low-rises, public and institutional
