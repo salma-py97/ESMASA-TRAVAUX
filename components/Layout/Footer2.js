@@ -44,10 +44,7 @@ const Footer2 = () => {
 							</div>
 
 							<p className="text-justify">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Consectetur sunt exercitationem, debitis sequi quos est voluptas
-								velit ullam aliquam sed! Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Iste, dolores!
+							Fondée en 2008, ESMASA Travaux, est une entreprise de Bâtiment et de Travaux Publics, génie civil et tout corps d’état. ESMASA Travaux, enrichie d’une expérience de plus de 20 ans, continue à  se développer en faisant de la qualité et de la sécurité, les centres de ses préoccupations. Grâce à  un personnel qualifiés et une mise à niveau de ses équipements.
 							</p>
 						</div>
 						<div className="col-md-3">
