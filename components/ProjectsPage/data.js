@@ -28,9 +28,9 @@ export const projectThree = {
 export const projectFour = {
   reverse: true,
   src: "https://i.ibb.co/z5pzGhN/1-3.jpg",
-  client: "AFRIQUIA GAZ",
-  type: "Hangar",
-  lieu: "Casablanca",
+  client: "MEDZ",
+  type: "Aménagement de la zone AFZ",
+  lieu: "Kénitra",
   date: "4 mois",
-  prestations: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, numquam!", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat", "Lorem ipsum dolor sit amet consectetur adipisicing elit!", "Lorem ipsum dolor sit amet consectetur adipisicing", "Lorem ipsum dolor sit amet consectetur"]
+  prestations: ["Préparation du terrain y compris le débroussaillage, le déracinement, dessouchage et décapage et démolition des ouvrages existants", "Terrassement de la voirie et de toutes les fouilles, fossés ou tranchées", "Exécution des fouilles en tranchée et en souterrain : étaiement, blindage, assèchement et épuisement pour la canalisation et les branchement", "La fourniture, le transport et la mise en place de canalisations circulaires en PVC et en béton armé pour les réseaux d'assainissement pluvial et d'eaux usées", "Le génie civil des postes de transformation et des coffrets répartiteurs", "L'exécution des tranchées: MT, BT et éclarage public", "La fourniture et la pose des câbles PRC du réseau MT et leur raccordement", "Fourniture, pose et raccordement câble de distribution et armoires depuis postes de transformation jusqu'aux luminaires", "Construction des chambres et canalisations pour le réseau téléphonique"]
 }
