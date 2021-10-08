@@ -31,6 +31,6 @@ export const projectFour = {
   client: "MEDZ",
   type: "Aménagement de la zone AFZ",
   lieu: "Kénitra",
-  date: "4 mois",
+  date: "5 mois",
   prestations: ["Préparation du terrain y compris le débroussaillage, le déracinement, dessouchage et décapage et démolition des ouvrages existants", "Terrassement de la voirie et de toutes les fouilles, fossés ou tranchées", "Exécution des fouilles en tranchée et en souterrain : étaiement, blindage, assèchement et épuisement pour la canalisation et les branchement", "La fourniture, le transport et la mise en place de canalisations circulaires en PVC et en béton armé pour les réseaux d'assainissement pluvial et d'eaux usées", "Le génie civil des postes de transformation et des coffrets répartiteurs", "L'exécution des tranchées: MT, BT et éclarage public", "La fourniture et la pose des câbles PRC du réseau MT et leur raccordement", "Fourniture, pose et raccordement câble de distribution et armoires depuis postes de transformation jusqu'aux luminaires", "Construction des chambres et canalisations pour le réseau téléphonique"]
 }
