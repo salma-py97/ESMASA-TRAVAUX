@@ -25,7 +25,9 @@ const Process = () => {
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>01</h1>
             <h5>ÉTUDES / CONCEPTION</h5>
-            <p className={`text-center text-dark`}>Nous collaborons avec des bureaux d'études techniques pour préparer des plans détaillés et déterminer les besoins en fournitures de chaque projet.</p>
+            <p className={`text-center text-dark`}>Nous collaborons avec des bureaux d'études reconnus pour l'établissement des dossiers de conception selon les normes et les standards nationaux et internationaux.
+            {/* préparer des plans détaillés et déterminer les besoins en fournitures de chaque projet. */}
+            </p>
           </div>
           <div className={`col-md-1 d-none d-md-flex justify-content-center align-items-center`}>
             <Image 
@@ -46,7 +48,9 @@ const Process = () => {
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>02</h1>
             <h5>APROBATION</h5>
-            <p className={`text-center text-dark`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet?</p>
+            <p className={`text-center text-dark`}>Tous les dossiers de construction sont soumis pour aprobation à des bureaux de controle de renom avant le début d'exécution. 
+            {/* Suite à la mise au point définitive de la conception, nous constituons notre dossier de construction et nous le déposons auprès des bureaux de contrôle pour aprobation. */}
+            </p>
           </div>
           <div className={`col-md-1 d-none d-md-flex justify-content-center align-items-center`}>
             <Image 
@@ -67,7 +71,10 @@ const Process = () => {
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>03</h1>
             <h5>RÉALISATION</h5>
-            <p className={`text-center text-dark`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet?</p>
+            <p className={`text-center text-dark`}>
+              {/* Enfin, après reception de l'Ordre de service, nous entamons notre construction pour vous livrer votre bâtiment dans les plus brefs délais. */}
+              Durant tous le processus de réalisation, nous veillons au strict respect des plans approuvés en sus des consignes de sécurité, santé au travail, hygiène et le plan de gestion environnementale et sociale.
+              </p>
           </div>
         </div>
 
