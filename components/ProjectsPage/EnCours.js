@@ -6,7 +6,7 @@ import Button from '../Layout/Button'
 import buttonStyles from "../../styles/LayoutStyles/Button.module.css"
 
 const EnCours = () => {
-	const { wrapper, container, hr, title, card_title, card, card_text, bar, bar_desc, inner_bar } = styles
+	const { wrapper, container, hr, title, card_title, card, card_text, bar, bar_desc, inner_bar, inner_bar_1, inner_bar_2, inner_bar_3 } = styles
 	const { btn, btn__yellow } = buttonStyles
 	return (
 		<div className={`py-5 ${wrapper}`}>
@@ -24,15 +24,14 @@ const EnCours = () => {
 							<Card.Body>
 								<Card.Title className={card_title}>Nom du Projet</Card.Title>
 								<Card.Text className={card_text}>
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia tenetur aspernatur nemo praesentium, sequi exercitationem nihil.
 								</Card.Text>
                 <div className={`d-flex justify-content-between align-items-center mt-4 mb-2 ${bar_desc}`}>
 									<h6>Réalisé à</h6>
-									<h4>70%</h4>
+									<h4>25%</h4>
 								</div>
                 <div className={`mb-4 ${bar}`}>
-									<div className={inner_bar}></div>
+									<div className={`${inner_bar_1} ${inner_bar}`}></div>
 								</div>
 								<Button className={`ml-0 ${btn} ${btn__yellow}`}>
 									Contactez-nous
@@ -51,15 +50,14 @@ const EnCours = () => {
 							<Card.Body>
 								<Card.Title className={card_title}>Nom du Projet</Card.Title>
 								<Card.Text className={card_text}>
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia tenetur aspernatur nemo praesentium, sequi exercitationem nihil.
 								</Card.Text>
                 <div className={`d-flex justify-content-between align-items-center mt-4 mb-2 ${bar_desc}`}>
 									<h6>Réalisé à</h6>
-									<h4>70%</h4>
+									<h4>60%</h4>
 								</div>
                 <div className={`mb-4 ${bar}`}>
-									<div className={inner_bar}></div>
+									<div className={`${inner_bar_2} ${inner_bar}`}></div>
 								</div>
 								<Button className={`ml-0 ${btn} ${btn__yellow}`}>
 									Contactez-nous
@@ -78,15 +76,14 @@ const EnCours = () => {
 							<Card.Body>
 								<Card.Title className={card_title}>Nom du Projet</Card.Title>
 								<Card.Text className={card_text}>
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia tenetur aspernatur nemo praesentium, sequi exercitationem nihil.
 								</Card.Text>
                 <div className={`d-flex justify-content-between align-items-center mt-4 mb-2 ${bar_desc}`}>
 									<h6>Réalisé à</h6>
-									<h4>70%</h4>
+									<h4>85%</h4>
 								</div>
                 <div className={`mb-4 ${bar}`}>
-									<div className={inner_bar}></div>
+									<div className={`${inner_bar_3} ${inner_bar}`}></div>
 								</div>
 								<Button className={`ml-0 ${btn} ${btn__yellow}`}>
 									Contactez-nous

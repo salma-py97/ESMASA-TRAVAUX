@@ -65,8 +65,17 @@
   background: #ccc;
   position: relative !important;
 }
+
 .inner_bar{
   height: 100%;
-  width: 70%;
   background: #333;
+}
+.inner_bar_1{
+  width: 25%;
+}
+.inner_bar_2{
+  width: 60%;
+}
+.inner_bar_3{
+  width: 85%;
 }
