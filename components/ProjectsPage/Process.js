@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 
 const Process = () => {
-  const {wrapper, inner_wrapper, hr, title, section_title} = styles
+  const {wrapper, inner_wrapper, hr, title, section_title, arrow, row} = styles
 // /* https://i.ibb.co/MsNqLgg/construction-icon-2-1.png
 // https://i.ibb.co/Wfccphr/construction-horizontal-arrow.png
 // https://i.ibb.co/17HdqsZ/construction-icon-3-1.png
@@ -14,7 +14,7 @@ const Process = () => {
       <div className={`container d-flex flex-column justify-content-center align-items-center py-5 ${inner_wrapper}`}>
         <h3 className={`text-center ${section_title}`}>PROCESSUS DE CONSTRUCTION</h3>
         <hr className={hr}></hr>
-        <div className="row justify-content-between align-items-center mt-5">
+        <div className={`row justify-content-between align-items-start mt-5 ${row}`}>
           <div className="col-md-3 m-0 d-flex flex-column justify-content-center align-items-center mb-sm-4 mb-md-0">
             <Image 
               src="https://i.ibb.co/7SRcNBF/construction-icon-1-1.png"
@@ -29,7 +29,7 @@ const Process = () => {
             {/* préparer des plans détaillés et déterminer les besoins en fournitures de chaque projet. */}
             </p>
           </div>
-          <div className={`col-md-1 d-none d-md-flex justify-content-center align-items-center`}>
+          <div className={`col-md-1 d-none d-md-flex ${arrow}`}>
             <Image 
               src="https://i.ibb.co/Wfccphr/construction-horizontal-arrow.png"
               height={80}
@@ -52,7 +52,7 @@ const Process = () => {
             {/* Suite à la mise au point définitive de la conception, nous constituons notre dossier de construction et nous le déposons auprès des bureaux de contrôle pour aprobation. */}
             </p>
           </div>
-          <div className={`col-md-1 d-none d-md-flex justify-content-center align-items-center`}>
+          <div className={`col-md-1 d-none d-md-flex ${arrow}`}>
             <Image 
               src="https://i.ibb.co/Wfccphr/construction-horizontal-arrow.png"
               height={80}
@@ -73,7 +73,7 @@ const Process = () => {
             <h5>RÉALISATION</h5>
             <p className={`text-center text-dark`}>
               {/* Enfin, après reception de l'Ordre de service, nous entamons notre construction pour vous livrer votre bâtiment dans les plus brefs délais. */}
-              Durant tous le processus de réalisation, nous veillons au strict respect des plans approuvés en sus des consignes de sécurité, santé au travail, hygiène et le plan de gestion environnementale et sociale.
+              Durant tout le processus de réalisation, nous veillons au strict respect des plans approuvés en sus des consignes de sécurité, santé au travail, hygiène et le plan de gestion environnementale et sociale.
               </p>
           </div>
         </div>

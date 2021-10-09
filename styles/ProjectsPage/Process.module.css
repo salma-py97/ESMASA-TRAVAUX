@@ -33,3 +33,8 @@ https://i.ibb.co/7SRcNBF/construction-icon-1-1.png */
   /* letter-spacing: 2px; */
   text-transform: uppercase;
 }
+
+.arrow {
+  /* position: absolute; */
+  margin-top: calc((520px - 140px) / 2);
+}
