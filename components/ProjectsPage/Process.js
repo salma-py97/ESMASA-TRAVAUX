@@ -24,8 +24,8 @@ const Process = () => {
               alt=""
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>01</h1>
-            <h5>PLAN / PROJET</h5>
-            <p className={`text-center text-dark`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet?</p>
+            <h5>ÉTUDES / CONCEPTION</h5>
+            <p className={`text-center text-dark`}>Nous collaborons avec des bureaux d'études techniques pour préparer des plans détaillés et déterminer les besoins en fournitures de chaque projet.</p>
           </div>
           <div className={`col-md-1 d-none d-md-flex justify-content-center align-items-center`}>
             <Image 
@@ -45,7 +45,7 @@ const Process = () => {
               alt=""
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>02</h1>
-            <h5>CONCEPTION</h5>
+            <h5>APROBATION</h5>
             <p className={`text-center text-dark`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, eveniet?</p>
           </div>
           <div className={`col-md-1 d-none d-md-flex justify-content-center align-items-center`}>
