@@ -51,7 +51,7 @@ const Services = () => {
 							Génie civil / Fondation
 						</h4>
 						<p className="mb-4 px-5 px-md-4">
-						ESMASA Travaux accompagne les donneurs d’ordre publics et privés dans la réalisation clefs en mains des travaux de génie civil.
+						ESMASA Travaux accompagne les donneurs d’ordre publics et privés dans la réalisation clé en mains des travaux de génie civil.
 						</p>
 						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
