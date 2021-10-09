@@ -2,29 +2,25 @@
 
 .box {
   background: #f5f5f5;
-  /* display: flex; */
 }
-
 .box_title {
   font-size: 19px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 30px;
 }
-
 .p{
   color: #8D8D8D;
   text-align: center;
   line-height: 25px;
-  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* min-height: 54px !important; */
-
 }
-
-
+.pp{
+  color: #8D8D8D;
+  line-height: 25px;
+}
 .inner_col {
   height: 100%;
   width: 100%;

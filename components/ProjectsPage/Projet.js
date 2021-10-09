@@ -8,7 +8,7 @@ import { MdLocationOn } from "react-icons/md"
 
 const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 
-	const { box, box_title, p, col, inner_col, row, inner_row } = styles
+	const { box, box_title, p, col, inner_col, row, inner_row, pp} = styles
 
 	return (
 		<div className={`row d-flex justify-content-center my-3 ${row} ${reverse ? `flex-row-reverse` : ``}`}>
@@ -89,7 +89,7 @@ const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 								</h5>
 								<ul>
 									{prestations.map((prestation) => (
-										<li><p className={`text-left m-0 ${p}`}>{prestation}</p></li>
+										<li><p className={`text-left m-0 ${pp}`}>{prestation}</p></li>
 									))}
 								</ul>
 							</div>
