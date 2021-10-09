@@ -2,6 +2,7 @@
 
 .box {
   background: #f5f5f5;
+  /* display: flex; */
 }
 
 .box_title {
@@ -15,6 +16,12 @@
   color: #8D8D8D;
   text-align: center;
   line-height: 25px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 54px !important; */
+
 }
 
 
@@ -23,11 +30,15 @@
   width: 100%;
 }
 @media screen and (max-width: 992px) {
-  
   .col {
     height: 500px;
     /* width: 100%; */
     margin-right: 1rem;
     margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 575px) {
+  .p{
+    min-height: 54px !important;
   }
 }

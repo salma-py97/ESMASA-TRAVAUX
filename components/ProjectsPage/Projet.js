@@ -26,7 +26,7 @@ const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 					<div className="row row-cols-1 row-cols-sm-2 d-flex justify-content-center align-items-center">
 						<div className="col col-sm-6 d-flex justify-content-center align-items-center p-3">
 							<div
-								className={`col d-flex-justify-content-center align-items-center ${box}`}
+								className={`col d-flex flex-column justify-content-center align-items-center ${box}`}
 							>
 								<FaUserTie
 									className="text-warning text-center mx-auto d-block my-4"
@@ -40,7 +40,7 @@ const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 						</div>
 						<div className="col col-sm-6 d-flex justify-content-center align-items-center p-3">
 							<div
-								className={`col d-flex-justify-content-center align-items-center ${box}`}
+								className={`col d-flex flex-column justify-content-center align-items-center ${box}`}
 							>
 								<BsFillHouseDoorFill
 									className="text-warning text-center mx-auto d-block my-4"
@@ -54,7 +54,7 @@ const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 						</div>
 						<div className="col col-sm-6 d-flex justify-content-center align-items-center p-3">
 							<div
-								className={`col d-flex-justify-content-center align-items-center ${box}`}
+								className={`col d-flex flex-column justify-content-center align-items-center ${box}`}
 							>
 								<MdLocationOn
 									className="text-warning text-center mx-auto d-block my-4"
@@ -68,7 +68,7 @@ const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 						</div>
 						<div className="col col-sm-6 d-flex justify-content-center align-items-center p-3">
 							<div
-								className={`col d-flex-justify-content-center align-items-center ${box}`}
+								className={`col d-flex flex-column justify-content-center align-items-center ${box}`}
 							>
 								<WiTime3
 									className="text-warning text-center mx-auto d-block my-4"
@@ -82,7 +82,7 @@ const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 						</div>
 						<div className="col-sm-12 d-flex justify-content-center align-items-center p-3">
 							<div
-								className={`col d-flex-justify-content-center align-items-center ${box}`}
+								className={`col d-flex flex-column  justify-content-center align-items-center ${box}`}
 							>
 								<h5 className={`my-4 text-center text-uppercase ${box_title}`}>
 									Nos prestations
