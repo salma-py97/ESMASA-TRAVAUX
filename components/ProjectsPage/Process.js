@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 
 const Process = () => {
-  const {wrapper, inner_wrapper, hr, title, section_title, arrow, row} = styles
+  const {wrapper, inner_wrapper, hr, title, section_title, arrow, row, h5} = styles
 // /* https://i.ibb.co/MsNqLgg/construction-icon-2-1.png
 // https://i.ibb.co/Wfccphr/construction-horizontal-arrow.png
 // https://i.ibb.co/17HdqsZ/construction-icon-3-1.png
@@ -24,7 +24,7 @@ const Process = () => {
               alt=""
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>01</h1>
-            <h5>ÉTUDES / CONCEPTION</h5>
+            <h5 className={h5}>ÉTUDES / CONCEPTION</h5>
             <p className={`text-center text-dark`}>Nous collaborons avec des bureaux d'études reconnus pour l'établissement des dossiers de conception selon les normes et les standards nationaux et internationaux.
             {/* préparer des plans détaillés et déterminer les besoins en fournitures de chaque projet. */}
             </p>
@@ -47,7 +47,7 @@ const Process = () => {
               alt=""
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>02</h1>
-            <h5>APROBATION</h5>
+            <h5 className={h5}>APROBATION</h5>
             <p className={`text-center text-dark`}>Tous les dossiers de construction sont soumis pour aprobation à des bureaux de controle de renom avant le début d'exécution. 
             {/* Suite à la mise au point définitive de la conception, nous constituons notre dossier de construction et nous le déposons auprès des bureaux de contrôle pour aprobation. */}
             </p>
@@ -70,7 +70,7 @@ const Process = () => {
               alt=""
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>03</h1>
-            <h5>RÉALISATION</h5>
+            <h5 className={h5}>RÉALISATION</h5>
             <p className={`text-center text-dark`}>
               {/* Enfin, après reception de l'Ordre de service, nous entamons notre construction pour vous livrer votre bâtiment dans les plus brefs délais. */}
               Durant tout le processus de réalisation, nous veillons au strict respect des plans approuvés en sus des consignes de sécurité, santé au travail, hygiène et le plan de gestion environnementale et sociale.
