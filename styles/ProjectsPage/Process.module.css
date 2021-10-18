@@ -38,3 +38,7 @@ https://i.ibb.co/7SRcNBF/construction-icon-1-1.png */
   /* position: absolute; */
   margin-top: calc((520px - 140px) / 2);
 }
+
+h5 {
+  text-align: center;
+}
