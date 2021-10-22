@@ -6,13 +6,13 @@ const Stats = () => {
     <div className={`d-flex justify-content-center align-items-center py-5 ${wrapper}`}>
       <div className="row container d-flex justify-content-around align-items-center text-center">
         <div className="col-md-3 d-flex flex-column justify-content-center align-items-center">
-          <h1 className={title} >100</h1>
+          <h1 className={title} >87</h1>
           <p className={`lead ${p}`}>Clients Satisfaits  <span className={`d-none d-lg-inline ${extra}`}>YYYYYYY YYYYYY</span>
           <span className={`d-none d-md-inline d-lg-none ${extra}`}>YYYYY</span>
           </p>
         </div>
         <div className="col-md-3 d-flex flex-column justify-content-center align-items-center">
-          <h1 className={title} >240</h1>
+          <h1 className={title} >206</h1>
           <p className={`lead ${p}`}>Projets Réussis  <span className={`d-none d-lg-inline ${extra}`}>YYYYYYY YYYYYY</span>
           <span className={`d-none d-md-inline d-lg-none ${extra}`}>YYYYY</span>
           </p>
