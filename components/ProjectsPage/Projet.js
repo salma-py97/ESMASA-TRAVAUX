@@ -6,7 +6,7 @@ import { WiTime3 } from "react-icons/wi"
 import { FaUserTie } from "react-icons/fa"
 import { MdLocationOn } from "react-icons/md"
 
-const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
+const Projet = ({ client, date, lieu, prestations, type, reverse }) => {
 
 	const { box, box_title, p, col, inner_col, row, inner_row, pp} = styles
 
@@ -14,10 +14,8 @@ const Projet = ({ client, date, lieu, src, prestations, type, reverse }) => {
 		<div className={`row d-flex justify-content-center my-3 ${row} ${reverse ? `flex-row-reverse` : ``}`}>
 			<div className={`col-lg-6 d-flex justify-content-center align-items-center p-3 ${col}`}>
 				<div className={`row d-flex justify-content-center align-items-center h-100 w-100 ${inner_row}`}>
-					{/* <Image src={src} alt="..." layout="fill" objectFit="cover" /> */}
 					<div className={` ${inner_col}`}>
 						<ProjectCarousel />
-
 					</div>
 				</div>
 			</div>

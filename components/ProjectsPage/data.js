@@ -1,6 +1,5 @@
 export const projectOne = {
   reverse: false,
-  src: "https://i.ibb.co/z5pzGhN/1-3.jpg",
   client: "Amendis",
   type: "Résaux d'assainissement",
   lieu: "Tanger",
@@ -9,7 +8,6 @@ export const projectOne = {
 }
 export const projectTwo = {
   reverse: true,
-  src: "https://i.ibb.co/z5pzGhN/1-3.jpg",
   client: "Redal",
   type: "Alimentation en eau potable",
   lieu: "Salé",
@@ -18,16 +16,30 @@ export const projectTwo = {
 }
 export const projectThree = {
   reverse: false,
-  src: "https://i.ibb.co/z5pzGhN/1-3.jpg",
+  client: "AFRIQUIA GAZ",
+  type: "Hangar",
+  lieu: "Jorf Lasfar",
+  date: "3 mois",
+  prestations: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, numquam!", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat", "Lorem ipsum dolor sit amet consectetur adipisicing elit!", "Lorem ipsum dolor sit amet consectetur adipisicing", "Lorem ipsum dolor sit amet consectetur"]
+}
+export const projectFour = {
+  reverse: true,
+  client: "A PROJECT",
+  type: "Réalisation d'une unité logistique",
+  lieu: "Marrakech",
+  date: "2 mois",
+  prestations: ["Génie Civil/Etanchéité: batiment administratif et batiment social", "Charpente metallique: Planchers et Escaliers d'accès", "Electricité, Plomberie et Equipement logistique", "Chambres froide négative et positive", "Aménagement Extérieur"]
+}
+export const projectFive = {
+  reverse: false,
   client: "AFRIQUIA GAZ",
   type: "Hangar",
   lieu: "Casablanca",
   date: "4 mois",
   prestations: ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, numquam!", "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat", "Lorem ipsum dolor sit amet consectetur adipisicing elit!", "Lorem ipsum dolor sit amet consectetur adipisicing", "Lorem ipsum dolor sit amet consectetur"]
 }
-export const projectFour = {
+export const projectSix = {
   reverse: true,
-  src: "https://i.ibb.co/z5pzGhN/1-3.jpg",
   client: "MEDZ",
   type: "Aménagement de la zone AFZ",
   lieu: "Kénitra",
