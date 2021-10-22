@@ -3,6 +3,8 @@ import styles from "../../styles/ProjectsPage/EnCours.module.css"
 import Card from "react-bootstrap/Card"
 import Button from '../Layout/Button'
 import buttonStyles from "../../styles/LayoutStyles/Button.module.css"
+import Link from 'next/link'
+
 
 
 
@@ -34,9 +36,11 @@ const ProjetEnCours = ({client, text, progression}) => {
               }
             `}</style>
           </div>
-          <Button className={`ml-0 ${btn} ${btn__yellow}`}>
-            Contactez-nous
-          </Button>
+          <Link href="/contact">
+            <Button className={`ml-0 ${btn} ${btn__yellow}`}>
+              Contactez-nous
+            </Button>
+          </Link>
 
           {/* <Button variant="primary">Go somewhere</Button> */}
         </Card.Body>
