@@ -45,7 +45,7 @@ https://i.ibb.co/pKdky4M/slider-bg-2.jpg */
   text-align: center;
 }
 
-.hero_container  p {
+.hero_container p {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
@@ -53,17 +53,21 @@ https://i.ibb.co/pKdky4M/slider-bg-2.jpg */
   'Lucida Sans', Arial, sans-serif;
   text-align: center;
   min-height: 70px;
+  display: block;
 }
-.hero_container  p > * {
+.hero_container p > * {
   display: inline !important;
 }
 
-.hero_btns {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 40%;
+.container > div {
+  /* margin-top: 3rem; */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 40% !important;
+  text-align: center !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
 }
 
 .hero_btns .btn {
@@ -81,7 +85,7 @@ https://i.ibb.co/pKdky4M/slider-bg-2.jpg */
   .hero_container p {
     font-size: 25px;
   }
-  .hero_btns {
+  .container > div {
     width: 70%;
   }
 }
@@ -107,7 +111,7 @@ https://i.ibb.co/pKdky4M/slider-bg-2.jpg */
   .btn {
     width: 100%;
   }
-  .hero_btns {
+  .container > div {
     width: 80%;
     flex-wrap: wrap;
     margin-top: 2rem;

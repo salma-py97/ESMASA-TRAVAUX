@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect'
 
 const HeroSection = () => {
 
-  const {hero_container, hero_btns, video, container, typewriter} = Homestyles
+  const {hero_container, hero_btns, video, container} = Homestyles
   const {btn,
     btn__outline,
     btn__primary,
@@ -37,7 +37,6 @@ const HeroSection = () => {
               loop: true,
               cursor: ""
             }}
-
           />
         </p>
         <div className={hero_btns}>
