@@ -52,6 +52,10 @@ https://i.ibb.co/pKdky4M/slider-bg-2.jpg */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
   'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  min-height: 70px;
+}
+.hero_container  p > * {
+  display: inline !important;
 }
 
 .hero_btns {
@@ -109,3 +113,4 @@ https://i.ibb.co/pKdky4M/slider-bg-2.jpg */
     margin-top: 2rem;
   }
 }
+

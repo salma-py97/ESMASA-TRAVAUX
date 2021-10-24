@@ -2,11 +2,12 @@ import Button from '../Layout/Button'
 import ButtonStyles from '../../styles/LayoutStyles/Button.module.css'
 import Homestyles from '../../styles/HomePage/HeroSection.module.css'
 import Link from 'next/link'
+import Typewriter from 'typewriter-effect'
 
 
 const HeroSection = () => {
 
-  const {hero_container, hero_btns, video, container} = Homestyles
+  const {hero_container, hero_btns, video, container, typewriter} = Homestyles
   const {btn,
     btn__outline,
     btn__primary,
@@ -28,7 +29,16 @@ const HeroSection = () => {
         <h1>ESMASA TRAVAUX</h1>
         <p>
           {/* Leader dans la construction et la rénovation de bâtiments durables */}
-          LEADER DANS LA CONSTRUCTION ET LA RÉNOVATION DE BÂTIMENTS DURABLES
+          LEADER DANS {' '}
+          <Typewriter
+            options={{
+              strings: ['LA CONSTRUCTION ', 'LA RÉNOVATION', "L'ASSAINISSEMENT", "L'EAU POTABLE", "L'AMÉNAGEMENT"],
+              autoStart: true,
+              loop: true,
+              cursor: ""
+            }}
+
+          />
         </p>
         <div className={hero_btns}>
           <Link href="/contact" >
