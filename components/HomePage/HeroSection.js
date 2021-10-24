@@ -32,7 +32,7 @@ const HeroSection = () => {
           LEADER DANS {' '}
           <Typewriter
             options={{
-              strings: ['LA CONSTRUCTION ', 'LA RÉNOVATION', "L'ASSAINISSEMENT", "L'EAU POTABLE", "L'AMÉNAGEMENT"],
+              strings: ['LA CONSTRUCTION BÂTIMENT', 'LES TRAVAUX DE RÉNOVATION', "LES TRAVAUX D'ASSAINISSEMENT", "LES INSTALLATIONS EN EAU POTABLE", "LE GÉNIE CIVIL"],
               autoStart: true,
               loop: true,
               cursor: ""
