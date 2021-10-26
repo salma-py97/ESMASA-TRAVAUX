@@ -17,7 +17,7 @@ const Choisir = () => {
 
 	useEffect (()=> {
 		AOS.init({
-			duration: 1500,
+			duration: 1200,
 		})
 	}, [])
 
@@ -90,7 +90,7 @@ const Choisir = () => {
 						</div>
 					</div>
 
-					<div className="col-md-6 mb-3" data-aos="fade-right" data-aos-once="true" data-aos-delay="300">
+					<div className="col-md-6 mb-3" data-aos="fade-right" data-aos-once="true" data-aos-delay="150">
 						<div className={`row flex-md-row-reverse ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
@@ -120,7 +120,7 @@ const Choisir = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-6 mb-3" data-aos="fade-left" data-aos-once="true" data-aos-delay="300">
+					<div className="col-md-6 mb-3" data-aos="fade-left" data-aos-once="true" data-aos-delay="150">
 						<div className={`row ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
@@ -172,7 +172,7 @@ const Choisir = () => {
 							</div>
 						</div>
 					</div> */}
-					<div className="col-md-6 mb-3" data-aos="fade-right" data-aos-once="true" data-aos-delay="450">
+					<div className="col-md-6 mb-3" data-aos="fade-right" data-aos-once="true" data-aos-delay="150">
 						<div className={`row flex-md-row-reverse ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
@@ -242,7 +242,7 @@ const Choisir = () => {
 							</div>
 						</div>
 					</div> */}
-					<div className="col-md-6 mb-3" data-aos="fade-left" data-aos-once="true" data-aos-delay="450">
+					<div className="col-md-6 mb-3" data-aos="fade-left" data-aos-once="true" data-aos-delay="150">
 						<div className={`row ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								{/* <div className="mt-3">

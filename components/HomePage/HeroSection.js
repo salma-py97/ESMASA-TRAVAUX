@@ -35,7 +35,9 @@ const HeroSection = () => {
               strings: ['LA CONSTRUCTION BÂTIMENT', 'LES TRAVAUX DE RÉNOVATION', "LES TRAVAUX D'ASSAINISSEMENT", "LES INSTALLATIONS EN EAU POTABLE", "LE GÉNIE CIVIL"],
               autoStart: true,
               loop: true,
-              cursor: ""
+              cursor: "",
+              delay: 70,
+              deleteSpeed: 60 	
             }}
           />
         </p>
