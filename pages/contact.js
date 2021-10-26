@@ -4,36 +4,41 @@ import {FaPhoneAlt} from 'react-icons/fa'
 import {IoMdMail} from 'react-icons/io'
 import {MdLocationOn} from 'react-icons/md'
 
-// import db from './firebase'
+// import {db} from '../firebase'
+import {addDoc, collection} from '@firebase/firestore'
+import {db, storage} from '../firebase'
 
 
 const contact = () => {
-	// const [fullName, setFullName] = useState("")
-	// const [email, setEmail] = useState("")
-	// const [phone, setPhone] = useState("")
-	// const [company, setCompany] = useState("")
-	// const [service, setService] = useState("")
+	const [fullName, setFullName] = useState("")
+	const [email, setEmail] = useState("")
+	const [phone, setPhone] = useState("")
+	const [company, setCompany] = useState("")
+	const [service, setService] = useState("")
 	const [msg, setMsg] = useState("")
 
+	
 	useEffect(() => {
 		const textarea = document.querySelector("textarea")
 		textarea.style.height = textarea.scrollHeight + "px"
 	}, [msg])
+	
+	// send message to firebase
+	const sendMessage = async (e) => {
+		e.preventDefault()
 
-	// // send message to firebase
-	// const sendMessage = e => {
-	// 	e.preventDefault()
+		const docRef = await addDoc(collection(db, 'messages'), {
+			Email: email,
+			Nom: fullName,
+			Message: msg,
+			Service: service,
+			Téléphone: phone,
+			Société: company
+		})
 
-	// 	// populate messages collection
-	// 	db.collection('messages').add({
-	// 		Email: email,
-	// 		Nom: fullName,
-	// 		Message: msg,
-	// 		Service: service,
-	// 		Téléphone: phone,
-	// 		Société: company
-	// 	})
-	// }
+
+	}
+
  
 
 	const {
@@ -106,7 +111,7 @@ const contact = () => {
 						className={`${contact_form} row`}
 						name="contact"
 						method="POST"
-						data-netlify="true"
+						// data-netlify="true"
 					>
 						<div className={`${form_field} col-lg-6`}>
 							<input
@@ -116,8 +121,8 @@ const contact = () => {
 								name="nom"
 								autoComplete="off"
 								required
-								// value={fullName}
-								// onChange={e=> setFullName(e.target.value)}
+								value={fullName}
+								onChange={e=> setFullName(e.target.value)}
 							/>
 							<label className={label} htmlFor="name">
 								Nom - Prénom
@@ -131,8 +136,8 @@ const contact = () => {
 								name="email"
 								autoComplete="off"
 								required
-								// value={email}
-								// onChange={e=> setEmail(e.target.value)}
+								value={email}
+								onChange={e=> setEmail(e.target.value)}
 							/>
 							<label className={label} htmlFor="email">
 								E-mail
@@ -146,8 +151,8 @@ const contact = () => {
 								name="société"
 								autoComplete="off"
 								required
-								// value={company}
-								// onChange={e=> setCompany(e.target.value)}
+								value={company}
+								onChange={e=> setCompany(e.target.value)}
 							/>
 							<label className={label} htmlFor="company">
 								Société
@@ -161,8 +166,8 @@ const contact = () => {
 								name="téléphone"
 								autoComplete="off"
 								required
-								// value={phone}
-								// onChange={e=> setPhone(e.target.value)}
+								value={phone}
+								onChange={e=> setPhone(e.target.value)}
 							/>
 							<label className={label} htmlFor="phone">
 								Téléphone
@@ -173,8 +178,8 @@ const contact = () => {
 								className={`${input_text} ${input}`}
 								name="Service"
 								required
-								// value={service}
-								// onChange={e => setService(e.target.value)}
+								value={service}
+								onChange={e => setService(e.target.value)}
 							>
 								<option aria-invalid="true"></option>
 								<option>Construction Bâtiment</option>
@@ -201,7 +206,7 @@ const contact = () => {
 						</div>
 						<div className={`${form_field} col-lg-12`}>
 							<button type="submit" className={submit_btn} 
-							// onClick={sendMessage()}
+							onClick={sendMessage}
 							>
 								ENVOYEZ
 							</button>
@@ -214,3 +219,4 @@ const contact = () => {
 }
 
 export default contact
+
