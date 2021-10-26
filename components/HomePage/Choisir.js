@@ -17,7 +17,7 @@ const Choisir = () => {
 
 	useEffect (()=> {
 		AOS.init({
-			duration: 200,
+			duration: 1500,
 		})
 	}, [])
 
