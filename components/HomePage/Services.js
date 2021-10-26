@@ -98,7 +98,7 @@ const Services = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						{/* <GiBrickWall className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
 						<GiElectric className="text-warning mt-5 mb-4" fontSize="5rem" />
@@ -118,7 +118,7 @@ const Services = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="350">
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="250">
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						<GiPaintRoller className="text-warning mt-5 mb-4" fontSize="5rem" />
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
@@ -134,7 +134,7 @@ const Services = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="500">
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
 					<div className={`col text-center py-3 px-2 ${service_col}`}>
 						{/* <BsTools className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
 						{/* <BiTrafficCone className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
