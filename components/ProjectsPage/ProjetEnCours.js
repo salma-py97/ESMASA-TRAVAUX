@@ -8,17 +8,20 @@ import Link from 'next/link'
 
 
 
-const ProjetEnCours = ({client, text, progression}) => {
-  const { card_title, card, card_text, bar, bar_desc, inner_bar } = styles
+const ProjetEnCours = ({client, text, progression, src}) => {
+  const { card_title, card, card_text, bar, bar_desc, inner_bar, img } = styles
 	const { btn, btn__yellow } = buttonStyles
   // const {client, text, progression} = dataEnCours
   return (
     <div className="col-lg-4 col-sm-10 p-3">
       <Card className={card} >
-        <Card.Img
-          variant="top"
-          src="https://i.ibb.co/qFxkz9j/image-10.png"
-          alt=""/>
+        {/* <Card.Img
+          // variant="top"
+          src={src}
+          // src="https://i.ibb.co/qFxkz9j/image-10.png"
+          // src="https://media4.giphy.com/media/ocuQpTqeFlDOP4fFJI/giphy.gif"
+          alt=""
+          className="h-100" /> */}
         <Card.Body>
           <Card.Title className={card_title}>{client}</Card.Title>
           <Card.Text className={card_text}>
@@ -36,7 +39,6 @@ const ProjetEnCours = ({client, text, progression}) => {
               }
               .inner_bar {
                 width: ${progression};
-                height: 9px;
               }
             `}</style>
           </div>

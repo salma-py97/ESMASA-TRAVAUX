@@ -1,9 +1,4 @@
 import styles from "../../styles/ProjectsPage/EnCours.module.css"
-import Image from "next/image"
-import Link from "next/link"
-import Card from "react-bootstrap/Card"
-import Button from '../Layout/Button'
-import buttonStyles from "../../styles/LayoutStyles/Button.module.css"
 
 import { projectOne } from "./dataEnCours"
 import { projectTwo } from "./dataEnCours"
