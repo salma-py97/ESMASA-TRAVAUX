@@ -28,11 +28,15 @@ const ProjetEnCours = ({client, text, progression}) => {
             <h6>Réalisé à</h6>
             <h4>{progression}</h4>
           </div>
-          <div className={`mb-4 ${bar}`}>
-            <div className={`${inner_bar} inner_bar`}></div>
+          <div className={`mb-4 progress bar`}>
+            <div className="progress-bar progress-bar-striped progress-bar-animated bg-dark inner_bar"></div>
             <style jsx>{`
+              .bar{
+                height: 9px;
+              }
               .inner_bar {
                 width: ${progression};
+                height: 9px;
               }
             `}</style>
           </div>
