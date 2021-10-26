@@ -22,8 +22,8 @@ const NosProjets = () => {
         <Projet {...projectOne} />
 					<hr className={hr} />
         <Projet {...projectTwo} />
-					{/* <hr className={hr} />
-        <Projet {...projectThree} /> */}
+					<hr className={hr} />
+        <Projet {...projectThree} />
 					<hr className={hr} />
         <Projet {...projectFour} />
 			</div>
