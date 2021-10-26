@@ -36,6 +36,13 @@ const contact = () => {
 			Société: company
 		})
 
+		setMsg("")
+		setFullName("")
+		setPhone("")
+		setCompany("")
+		setService("")
+		setEmail("")
+
 
 	}
 
