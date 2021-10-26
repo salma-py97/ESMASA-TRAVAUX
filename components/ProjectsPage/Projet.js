@@ -22,14 +22,14 @@ const Projet = ({ client, date, lieu, prestations, type, reverse }) => {
 	
 	return (
 		<div className={`row d-flex justify-content-center my-3 ${row} ${reverse ? `flex-row-reverse` : ``}`}>
-			<div className={`col-lg-6 d-flex justify-content-center align-items-center p-3 ${col}`} data-aos={`${reverse ? "fade-left" : "fade-right"}`} data-aos-once="true" data-aos-delay="250"> 
+			<div className={`col-lg-6 d-flex justify-content-center align-items-center p-3 ${col}`} data-aos={`${reverse ? "fade-left" : "fade-right"}`} data-aos-once="true" data-aos-delay="200"> 
 				<div className={`row d-flex justify-content-center align-items-center h-100 w-100 ${inner_row}`} >
 					<div className={` ${inner_col}`}>
 						<ProjectCarousel />
 					</div>
 				</div>
 			</div>
-			<div className="col-lg-6 d-flex justify-content-center align-items-center px-3" data-aos={`${reverse ? "fade-right" : "fade-left"}`} data-aos-once="true" data-aos-delay="250">
+			<div className="col-lg-6 d-flex justify-content-center align-items-center px-3" data-aos={`${reverse ? "fade-right" : "fade-left"}`} data-aos-once="true" data-aos-delay="200">
 				<div className="col d-flex justify-content-center align-items-center">
 					<div className="row row-cols-1 row-cols-sm-2 d-flex justify-content-center align-items-center">
 						<div className="col col-sm-6 d-flex justify-content-center align-items-center p-3">
