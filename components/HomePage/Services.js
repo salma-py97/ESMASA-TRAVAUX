@@ -4,6 +4,11 @@ import styles from "../../styles/HomePage/Services.module.css"
 import Button from "../../components/Layout/Button"
 import ButtonStyles from "../../styles/LayoutStyles/Button.module.css"
 import Image from 'next/image'
+import {useEffect} from 'react'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 import { GiPaintRoller } from "react-icons/gi"
 import { FaRegBuilding } from "react-icons/fa"
@@ -13,9 +18,18 @@ import { GiElectric } from "react-icons/gi"
 import { GiBulldozer } from "react-icons/gi"
 import { BiTrafficCone } from "react-icons/bi"
 
+
+
+
 const Services = () => {
 	const { service, nos_services, service_col, hr, btn_content, p, img } = styles
 	const { btn, btn__primary__yellow_outline } = ButtonStyles
+	
+	useEffect (()=> {
+		AOS.init({
+			duration: 1500,
+		})
+	}, [])
 
 	return (
 		<div className="container py-5 d-flex flex-column justify-content-center align-items-center">
@@ -26,8 +40,8 @@ const Services = () => {
 			{/* Construction de qualité
 			Notre expertise est mise à profit pour un large éventail de projets, y compris des immeubles de grande et de faible hauteur, des bâtiments publics et institutionnels. */}
 
-			<div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex justify-content-center align-items-center my-4">
-				<div className="col p-3">
+			<div className={`row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex justify-content-center align-items-center my-4`}>
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="150">
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						<FaRegBuilding className="text-warning mt-5 mb-4" fontSize="5rem" />
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
@@ -44,7 +58,7 @@ const Services = () => {
 					</div>
 				</div>
 
-				<div className="col p-3">
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="350">
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						<GiBulldozer className="text-warning mt-4 mb-3" fontSize="7rem" />
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
@@ -61,7 +75,7 @@ const Services = () => {
 					</div>
 				</div>
 
-				<div className="col p-3">
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="550">
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 							<div className={`${img}`}>
 							<Image src="https://i.ibb.co/F8pwNzw/image-11.png" 
@@ -84,7 +98,7 @@ const Services = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="col p-3">
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="750">
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						{/* <GiBrickWall className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
 						<GiElectric className="text-warning mt-5 mb-4" fontSize="5rem" />
@@ -104,7 +118,7 @@ const Services = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="col p-3">
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="950">
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						<GiPaintRoller className="text-warning mt-5 mb-4" fontSize="5rem" />
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
@@ -120,7 +134,7 @@ const Services = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="col p-3">
+				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="1150">
 					<div className={`col text-center py-3 px-2 ${service_col}`}>
 						{/* <BsTools className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
 						{/* <BiTrafficCone className="text-warning mt-5 mb-4" fontSize="5rem" /> */}

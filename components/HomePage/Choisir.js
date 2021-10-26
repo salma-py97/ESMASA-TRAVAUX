@@ -8,8 +8,19 @@ import { HandThumbsUp } from "react-bootstrap-icons"
 import { MdOutlineHeadphones } from "react-icons/md"
 import { BsHeadset } from "react-icons/bs"
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect} from 'react'
+
 const Choisir = () => {
 	const { title, bg, content, reason, reason_div, reason_title } = styles
+
+	useEffect (()=> {
+		AOS.init({
+			duration: 200,
+		})
+	}, [])
+
 	return (
 		<div
 			className={`py-5 d-flex justify-content-center align-items-center ${bg}`}
@@ -24,7 +35,7 @@ const Choisir = () => {
 				<div
 					className={`row d-flex justify-content-center align-items-start my-5 ${content}`}
 				>
-					<div className="col-md-6 mb-3">
+					<div className="col-md-6 mb-3" data-aos="fade-right" data-aos-once="true" data-aos-delay="150">
 						<div className={`row flex-md-row-reverse ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								{/* <HandThumbsUp className="text-white mt-3" size={76} /> */}
@@ -53,7 +64,7 @@ const Choisir = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-6 mb-3">
+					<div className="col-md-6 mb-3" data-aos="fade-left" data-aos-once="true" data-aos-delay="150">
 						<div className={`row ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
@@ -79,7 +90,7 @@ const Choisir = () => {
 						</div>
 					</div>
 
-					<div className="col-md-6 mb-3">
+					<div className="col-md-6 mb-3" data-aos="fade-right" data-aos-once="true" data-aos-delay="300">
 						<div className={`row flex-md-row-reverse ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
@@ -109,7 +120,7 @@ const Choisir = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md-6 mb-3">
+					<div className="col-md-6 mb-3" data-aos="fade-left" data-aos-once="true" data-aos-delay="300">
 						<div className={`row ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
@@ -161,7 +172,7 @@ const Choisir = () => {
 							</div>
 						</div>
 					</div> */}
-					<div className="col-md-6 mb-3">
+					<div className="col-md-6 mb-3" data-aos="fade-right" data-aos-once="true" data-aos-delay="450">
 						<div className={`row flex-md-row-reverse ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								<div className="mt-3">
@@ -231,7 +242,7 @@ const Choisir = () => {
 							</div>
 						</div>
 					</div> */}
-					<div className="col-md-6 mb-3">
+					<div className="col-md-6 mb-3" data-aos="fade-left" data-aos-once="true" data-aos-delay="450">
 						<div className={`row ${reason_div}`}>
 							<div className="col-3 d-flex justify-content-center align-items-start">
 								{/* <div className="mt-3">
