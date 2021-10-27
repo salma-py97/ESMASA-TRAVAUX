@@ -4,6 +4,10 @@ import {FaPhoneAlt} from 'react-icons/fa'
 import {IoMdMail} from 'react-icons/io'
 import {MdLocationOn} from 'react-icons/md'
 
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+
 // import {db} from '../firebase'
 import {addDoc, collection} from '@firebase/firestore'
 import {db, storage} from '../firebase'
@@ -16,7 +20,8 @@ const contact = () => {
 	const [company, setCompany] = useState("")
 	const [service, setService] = useState("")
 	const [msg, setMsg] = useState("")
-
+	
+	const MySwal = withReactContent(Swal)
 	
 	useEffect(() => {
 		const textarea = document.querySelector("textarea")
@@ -42,11 +47,16 @@ const contact = () => {
 		setCompany("")
 		setService("")
 		setEmail("")
-
+					
+		Swal.fire({
+			position: 'center',
+			icon: 'success',
+			title: 'Votre message a été bien transmis',
+			showConfirmButton: false,
+			timer: 1500
+		})
 
 	}
-
- 
 
 	const {
 		get_in_touch,
@@ -65,7 +75,8 @@ const contact = () => {
     contact_info_details,
     icon,
     travaillons_ensemble,
-		hr
+		hr,
+		alert
 	} = styles
   
 	return (
