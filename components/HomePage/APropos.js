@@ -18,7 +18,7 @@ const APropos = () => {
           <p>Esmasa Travaux a été fondée en 2008 avec pour finalité la réalisation clef en mains des travaux de génie civil et assainissement...  
           </p>
           <p>
-          Avec plus de 13 ans d'expérience dans le secteur de la construction des bâtiments, nous avons entrepris de nombreux projets ambitieux avec des clients de renom. </p>
+          Avec plus de 13 ans d'expérience dans le secteur de la construction des bâtiments, nous avons entrepris de nombreux projets ambitieux avec des clients renommés. </p>
           <p>
           Ayant par ailleurs, accumulé des compétences techniques, du savoir-faire en matière de conception, études et réalisation des infrastructures. </p>
           <p>
