@@ -15,7 +15,7 @@ const Mission = () => {
 				</div>
 
 				<p className="lead px-md-5 px-3 mb-5 mb-md-0">
-				Garantir la la satisfaction de nos clients et fournir des produits et des services de qualité en assurant la sécurité, l'hygiène et la santé au travail, tout en respectant l'environnement et en favorisant le développement des compétences de nos employés.
+				Garantir la satisfaction de nos clients et fournir des produits et des services de qualité en assurant la sécurité, l'hygiène et la santé au travail, tout en respectant l'environnement et en favorisant le développement des compétences de nos employés.
 					<br />
 					<br />
 				Maintenir le plus haut niveau de professionnalisme, d'honnêteté et d'équité dans nos relations avec nos clients, nos employés et nos fournisseurs afin d'être le prestataire le plus qualifié pour des travaux de génie civil et bâtiments en satisfaisant les exigences et les attentes des clients.

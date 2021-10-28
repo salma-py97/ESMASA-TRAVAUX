@@ -33,12 +33,12 @@ const contact = () => {
 		e.preventDefault()
 
 		const docRef = await addDoc(collection(db, 'messages'), {
-			Email: email,
-			Nom: fullName,
-			Message: msg,
-			Service: service,
-			Téléphone: phone,
-			Société: company
+			email: email,
+			nom: fullName,
+			message: msg,
+			service: service,
+			tel: phone,
+			soc: company
 		})
 
 		setMsg("")
