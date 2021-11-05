@@ -129,7 +129,6 @@ const contact = () => {
 						className={`${contact_form} row`}
 						name="contact"
 						method="POST"
-						// data-netlify="true"
 					>
 						<div className={`${form_field} col-lg-6`}>
 							<input

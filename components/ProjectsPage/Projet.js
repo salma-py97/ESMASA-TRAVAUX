@@ -1,4 +1,3 @@
-import Image from "next/image"
 import styles from "../../styles/ProjectsPage/Projet.module.css"
 import ProjectCarousel from './ProjectCarousel'
 import { BsFillHouseDoorFill } from "react-icons/bs"
