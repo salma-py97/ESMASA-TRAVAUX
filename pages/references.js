@@ -5,12 +5,12 @@ import {rowOne, rowTwo, rowThree, rowFour, rowFive} from '../components/Referenc
 import styles from '../styles/ReferencesPage/styles.module.css'
 
 const references = () => {
-  const {table, thead, title, wrapper} = styles
+  const {table, thead, title, wrapper, table_wrapper} = styles
   return (
-    <div className={`container ${wrapper}`}>
+    <div className={`container d-flex justify-content-center align-items-center flex-column ${wrapper}`}>
       <h1 className={title} >Nos Références</h1>
 
-      <div className="d-flex justify-content-center">
+      <div className={`d-flex justify-content-center align-items-center table-responsive ${table_wrapper}`}>
         <table className={`rounded ${table}`}>
           <thead className={thead}>
             <tr>
