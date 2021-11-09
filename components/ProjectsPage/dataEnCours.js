@@ -1,18 +1,31 @@
 export const projectOne = {
-  client: "Amendis",
-  progression: "55%",
-  text: "Réalisation du réservoir HAD GHARBIA centre de 500m².",
-  src: "https://media4.giphy.com/media/ocuQpTqeFlDOP4fFJI/giphy.gif"
+  client: "Redal",
+  progression: "95%",
+  text: "Construction et équipements électriques du poste source 60/20kv à Skhirat.",
 }
 export const projectTwo = {
-  client: "Redal",
-  progression: "93%",
-  text: `Déplacement de la conduite d'eau potable DN 600 à l'entrée de RABAT ${'"'}FUS${'"'}.`,
-  src: "https://ibxbarter.com/underconstruction.gif"
+  client: "Amendis",
+  progression: "80%",
+  text: `Construction des mûrs de clôture et de soutènement du terrain Charf à Tanger.`,
 }
+
 export const projectThree = {
+  client: "Amendis",
+  progression: "50%",
+  text: "Marché cadre programme d’investissement - Assainissement.",
+}
+export const projectFour = {
+  client: "Redal",
+  progression: "30%",
+  text: "Alimentation en eau potable du projet Wessal Sale.",
+}
+export const projectFive = {
+  client: "Amendis",
+  progression: "20%",
+  text: "Construction de deux réservoirs Ryayna et Had Gharbia centre de 500 m3 à Tanger.",
+}
+export const projectSix = {
   client: "Vilion",
   progression: "10%",
   text: "Construction tout corps état d'une usine cosmétique à BENI MELLAL.",
-  src: "https://giffiles.alphacoders.com/158/158665.gif"
 }

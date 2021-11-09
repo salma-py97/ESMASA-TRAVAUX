@@ -3,6 +3,9 @@ import styles from "../../styles/ProjectsPage/EnCours.module.css"
 import { projectOne } from "./dataEnCours"
 import { projectTwo } from "./dataEnCours"
 import { projectThree } from "./dataEnCours"
+import { projectFour } from "./dataEnCours"
+import { projectFive } from "./dataEnCours"
+import { projectSix } from "./dataEnCours"
 
 
 
@@ -18,6 +21,9 @@ const EnCours = () => {
 					<ProjetEnCours {...projectOne} />
 					<ProjetEnCours {...projectTwo}/>
 					<ProjetEnCours {...projectThree}/>
+					<ProjetEnCours {...projectFour}/>
+					<ProjetEnCours {...projectFive}/>
+					<ProjetEnCours {...projectSix}/>
 				</div>
 			</div>
 		</div>
