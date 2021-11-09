@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+
+.table {
+  border-collapse: collapse;
+  margin: 50px 0;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-size: 1.1rem;
+}
+
+.wrapper {
+  margin-top: 150px;
+}
+
+.wrapper .table {
+  border-radius: 15px !important;
+}
+
+.title {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 2.5rem;
+	line-height: 48px;
+	color: #333;
+  text-align: center;
+}
+
+.thead tr {
+  background-color: #009879;
+  color: #fff;
+  text-align: center;
+}
+
+.table th,
+.tr td {
+  padding: 12px 25px;
+}
+
+
+.tr {
+  border-bottom: 1px solid #dddddd;
+  transition: all 0.1s ease-in;
+}
+
+.tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.tr:nth-of-type(odd) {
+  background-color: #fff;
+}
+
+.tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.tr:hover{
+  /* font-weight: 500; */
+  color: #009879;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 500px) {
+  .tr td {
+    padding: 12px 15px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .tr td {
+    font-size: 0.85rem;
+  }
+}
