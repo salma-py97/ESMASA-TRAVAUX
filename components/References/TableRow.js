@@ -8,7 +8,7 @@ const TableRow = ({client, projet, durée, année}) => {
     <tr className={tr}>
       <td>{année}</td>
       <td>{client}</td>
-      <td>{projet}</td>
+      <td className="text-capitalize">{projet}</td>
       <td className="text-nowrap">{durée}</td>
     </tr>
   )

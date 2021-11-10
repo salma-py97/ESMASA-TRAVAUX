@@ -187,7 +187,7 @@ const Choisir = () => {
 							</div>
 							<div className="col-9">
 								{/* <h3 className={reason_title}>Santé & Sécurité</h3> */}
-								<h3 className={reason_title}>QHSE</h3>
+								<h3 className={reason_title}><abbr title="Qualité, Hygiène, Sécurité et Environnement">QHSE</abbr></h3>
 								<p className={reason}>
 									{/* ESMASA Travaux is committed to take every reasonable
 									precaution to prevent injuries and maintain a safe and healthy

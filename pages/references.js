@@ -1,6 +1,35 @@
 import TableRow from "../components/References/TableRow"
 
-import {rowOne, rowTwo, rowThree, rowFour, rowFive} from '../components/References/data'
+import {
+  rowOne,
+  rowTwo,
+  rowThree,
+  rowFour,
+  rowFive,
+  rowSix,
+  rowSeven,
+  rowEight,
+  rowNine,
+  rowTen,
+  rowEleven,
+  rowTwelve,
+  rowThirteen,
+  rowFourteen,
+  rowFifteen,
+  rowSixteen,
+  rowSeventeen,
+  rowEighteen,
+  rowNineteen,
+  rowTwenty,
+  rowTwentyOne,
+  rowTwentyTwo,
+  rowTwentyThree,
+  rowTwentyFour,
+  rowTwentyFive,
+  rowTwentySix,
+  rowTwentySeven,
+  rowTwentyEight,
+} from '../components/References/data'
 
 import styles from '../styles/ReferencesPage/styles.module.css'
 
@@ -22,10 +51,33 @@ const references = () => {
           </thead>
           <tbody>
             <TableRow {...rowOne} />
-            <TableRow {...rowTwo}/>
-            <TableRow {...rowThree}/>
-            <TableRow {...rowFour}/>
-            <TableRow {...rowFive}/>
+            <TableRow {...rowTwo} />
+            <TableRow {...rowThree} />
+            <TableRow {...rowFour} />
+            <TableRow {...rowFive} />
+            <TableRow {...rowSix} />
+            <TableRow {...rowSeven} />
+            <TableRow {...rowEight} />
+            <TableRow {...rowNine} />
+            <TableRow {...rowTen} />
+            <TableRow {...rowEleven} />
+            <TableRow {...rowTwelve} />
+            <TableRow {...rowThirteen} />
+            <TableRow {...rowFourteen} />
+            <TableRow {...rowFifteen} />
+            <TableRow {...rowSixteen} />
+            <TableRow {...rowSeventeen} />
+            <TableRow {...rowEighteen} />
+            <TableRow {...rowNineteen} />
+            <TableRow {...rowTwenty} />
+            <TableRow {...rowTwentyOne} />
+            <TableRow {...rowTwentyTwo} />
+            <TableRow {...rowTwentyThree} />
+            <TableRow {...rowTwentyFour} />
+            <TableRow {...rowTwentyFive} />
+            <TableRow {...rowTwentySix} />
+            <TableRow {...rowTwentySeven} />
+            <TableRow {...rowTwentyEight} />
           </tbody>
         </table>
       </div>
