@@ -6,10 +6,10 @@ const TableRow = ({client, projet, durée, année}) => {
 
   return (
     <tr className={tr}>
-      <td>{année}</td>
-      <td>{client}</td>
+      <td className="text-nowrap text-center">{année}</td>
+      <td className="text-nowrap text-center">{client}</td>
       <td className="text-capitalize">{projet}</td>
-      <td className="text-nowrap">{durée}</td>
+      <td className="text-nowrap text-center">{durée}</td>
     </tr>
   )
 }
