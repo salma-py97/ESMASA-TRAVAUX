@@ -39,7 +39,7 @@ const references = () => {
     <div className={`container d-flex justify-content-center align-items-center flex-column ${wrapper}`}>
       <h1 className={title} >Nos Références</h1>
 
-      <div className={`d-flex justify-content-center align-items-center table-responsive ${table_wrapper}`}>
+      <div className={`d-flex justify-content-center align-items-center ${table_wrapper}`}>
         <table className={`rounded ${table}`}>
           <thead className={thead}>
             <tr>
