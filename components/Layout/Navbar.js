@@ -130,11 +130,11 @@ const Navbar = () => {
                 <p className={nav_links} onClick={() => { setClick(false)	}}>Projets</p>
 							</Link>
 						</li>
-						<li className={router.pathname == "/references" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
+						{/* <li className={router.pathname == "/references" ? `${nav_item} ${nav_item_active}` : `${nav_item}`}>
 							<Link	href="/references"	>
                 <p className={nav_links} onClick={() => { setClick(false) }}>Références</p>
 							</Link>
-						</li>
+						</li> */}
 
             <li className={nav_btn}>
               {
