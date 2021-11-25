@@ -11,7 +11,7 @@ const APropos = () => {
         <div className="col-md-4 d-flex flex-column justify-content-center align-items-start">
           <h2 className={title} >À PROPOS</h2>
           <hr className={`mx-0 mb-5 ${hr}`} />
-          <p className={`lead text-uppercase ${desc}`}>VOTRE VISION. NOTRE métier.</p>
+          <p className={`lead text-uppercase ${desc}`}>VOTRE VISION, NOTRE métier.</p>
           {/* <p className={`${desc}`}>Planification effective, conception efficiente et construction de qualité</p> */}
         </div>
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
