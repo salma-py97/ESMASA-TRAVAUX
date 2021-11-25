@@ -57,7 +57,7 @@ const Choisir = () => {
 									term success for our company, clients and our environment. */}
 									{/* Nous nous engageons à maintenir un environnement propre et sain pour nos employés, nos clients et partenaires. Nous nous efforçons de garantir le succès à long terme de tous nos projets. */}
 									Nos constructions sont conçues en se basant sur les meilleures
-									pratiques conjuguant qualité, résistance et éfficacité sur le
+									pratiques conjuguant qualité, résistance et efficacité sur le
 									long terme en s'intégrant parfaitement dans l'environnement
 									avec délai et coûts optimisés.
 								</p>
