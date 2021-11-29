@@ -53,9 +53,10 @@ const Footer2 = () => {
 								<li>Construction Bâtiment</li>
 								<li>Génie civil / Fondation</li>
 								<li>Revêtement / Étanchéité</li>
-								<li>Électricité / Climatisation</li>
+								<li>Travaux de Voirie</li>
 								<li>Travaux d'Aménagement</li>
-								<li>Travaux d'assainissement</li>
+								<li>Travaux d'Eau Potable</li>
+								<li>Travaux d'Assainissement</li>
 							</ul>
 						</div>
 
