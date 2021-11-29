@@ -102,14 +102,11 @@ const Services = () => {
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						{/* <GiBrickWall className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
 						<GiElectric className="text-warning mt-5 mb-4" fontSize="5rem" />
-						<h4 className={`mt-2 mb-4 text-uppercase d-none d-md-block d-lg-none ${service}`}>
-							électricité/Climatisation
-						</h4>
-						<h4 className={`mt-2 mb-4 text-uppercase d-block d-md-none d-lg-block ${service}`}>
-							électricité / Climatisation
+						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
+							Travaux de Voirie
 						</h4>
 						<p className="mb-5 px-5 px-md-4">
-						ESMASA Travaux met son expertise dans l’électricité bâtiments à la disposition de ses clients.
+						ESMASA Travaux met son expertise dans les travaux VRD à la disposition de ses clients.
 						</p>
 						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
