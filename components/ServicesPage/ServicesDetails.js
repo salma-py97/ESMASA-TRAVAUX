@@ -182,7 +182,7 @@ const ServicesDetails = () => {
 										/> */}
 									</div>
 									<div className="col-9">
-										<h3 className="text-capitalize">électricité & Climatisation</h3>
+										<h3 className="text-capitalize">Travaux d'eau potable</h3>
 										<ul>
 											<li>Travaux d’électricité intérieure</li>
 											<li>Travaux d’éclairage public</li>

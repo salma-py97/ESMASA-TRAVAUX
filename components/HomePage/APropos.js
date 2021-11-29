@@ -15,7 +15,7 @@ const APropos = () => {
           {/* <p className={`${desc}`}>Planification effective, conception efficiente et construction de qualité</p> */}
         </div>
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-start">
-          <p>Esmasa Travaux a été fondée en 2008 avec pour finalité la réalisation clef en mains des travaux de génie civil et assainissement...  
+          <p>Esmasa Travaux a été fondée en 2008 avec pour finalité la réalisation clé en mains des travaux de génie civil, VRD, assainissement...  
           </p>
           <p>
           Avec plus de 13 ans d'expérience dans le secteur de la construction des bâtiments, nous avons entrepris de nombreux projets ambitieux avec des clients renommés. </p>
