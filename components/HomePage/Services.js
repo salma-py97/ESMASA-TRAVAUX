@@ -17,6 +17,7 @@ import { GiBrickWall } from "react-icons/gi"
 import { GiElectric } from "react-icons/gi"
 import { GiBulldozer } from "react-icons/gi"
 import { BiTrafficCone } from "react-icons/bi"
+import { GiDigDug } from "react-icons/gi"
 
 
 
@@ -101,7 +102,7 @@ const Services = () => {
 				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
 					<div className={`col text-center py-3 px-3 ${service_col}`}>
 						{/* <GiBrickWall className="text-warning mt-5 mb-4" fontSize="5rem" /> */}
-						<GiElectric className="text-warning mt-5 mb-4" fontSize="5rem" />
+						<GiDigDug className="text-warning mt-5 mb-4" fontSize="5rem" />
 						<h4 className={`mt-2 mb-4 text-uppercase ${service}`}>
 							Travaux de Voirie
 						</h4>
