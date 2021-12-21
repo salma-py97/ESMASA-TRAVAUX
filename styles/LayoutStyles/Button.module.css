@@ -17,6 +17,7 @@
   border: 1.5px solid var(--primo);
 }
 .btn__yellow {
+  /* background-color: #FCCF00; */
   background-color: #FCCF00;
   color: #242424;
   border: 1.5px solid var(--primo);
@@ -36,7 +37,8 @@
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
-  border: 1.5px solid var(--primo);
+  /* border: 1.5px solid var(--primo); */
+  border: 1.5px solid var(--danger);
   transition: all .3s ease-out;
 }
 
