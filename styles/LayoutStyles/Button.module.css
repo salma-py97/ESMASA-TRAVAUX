@@ -37,8 +37,8 @@
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
-  /* border: 1.5px solid var(--primo); */
-  border: 1.5px solid var(--danger);
+  border: 1.5px solid var(--primo);
+  /* border: 1.5px solid var(--danger); */
   transition: all .3s ease-out;
 }
 
