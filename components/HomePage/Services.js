@@ -51,11 +51,11 @@ const Services = () => {
 						<p className="mb-5 px-5 px-md-4">
 						ESMASA Travaux accompagne les industriels dans la construction et aménagement des bâtiments.
 						</p>
-						{/* <Link href="/services">
+						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
 								<p className={btn_content}>EN SAVOIR PLUS</p>
 							</Button>
-						</Link> */}
+						</Link>
 					</div>
 				</div>
 
@@ -68,11 +68,11 @@ const Services = () => {
 						<p className="mb-4 px-5 px-md-4">
 						ESMASA Travaux accompagne les donneurs d’ordre publics et privés dans la réalisation clé en mains des travaux de génie civil.
 						</p>
-						{/* <Link href="/services">
+						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
 								<p className={btn_content}>EN SAVOIR PLUS</p>
 							</Button>
-						</Link> */}
+						</Link>
 					</div>
 				</div>
 
@@ -92,11 +92,11 @@ const Services = () => {
 						<p className="mb-4 px-5 px-md-4">
 						Esmasa Travaux offre des services de haute qualité de revêtement et étanchéité pour éviter les dommages à la structure des bâtiments.
 						</p>
-						{/* <Link href="/services">
+						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
 								<p className={btn_content}>EN SAVOIR PLUS</p>
 							</Button>
-						</Link> */}
+						</Link>
 					</div>
 				</div>
 				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
@@ -109,11 +109,11 @@ const Services = () => {
 						<p className="mb-5 px-5 px-md-4">
 						ESMASA Travaux met son expertise dans les travaux VRD à la disposition de ses clients.
 						</p>
-						{/* <Link href="/services">
+						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
 								<p className={btn_content}>EN SAVOIR PLUS</p>
 							</Button>
-						</Link> */}
+						</Link>
 					</div>
 				</div>
 				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="250">
@@ -125,11 +125,11 @@ const Services = () => {
 						<p className="mb-4 px-5 px-md-4">
 						Vu sa grande expérience dans le domaine, ESMASA Travaux est qualifié dans la réalisation de tous les travaux d'aménagement.
 						</p>
-						{/* <Link href="/services">
+						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
 								<p className={btn_content}>EN SAVOIR PLUS</p>
 							</Button>
-						</Link> */}
+						</Link>
 					</div>
 				</div>
 				<div className="col p-3"  data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
@@ -154,11 +154,11 @@ const Services = () => {
 						<p className={`mb-4 px-5 px-md-3 ${p}`}>
 						ESMASA Travaux dispose des compétences techniques solides dans la réalisation des infrastructures d’alimentation en eau potable.
 						</p>
-						{/* <Link href="/services">
+						<Link href="/services">
 							<Button className={`${btn} ${btn__primary__yellow_outline}`}>
 								<p className={btn_content}>EN SAVOIR PLUS</p>
 							</Button>
-						</Link> */}
+						</Link>
 					</div>
 				</div>
 			</div>
