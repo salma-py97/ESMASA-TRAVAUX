@@ -98,14 +98,15 @@ const Navbar = () => {
           <Link	href="/" className={`${navbar_logo}`} >
             <div className={logo}  onClick={() => {setClick(false)}}>
                 <Image
-                  src="/images/logo_esmasa.png"
+                  // src="/images/logo_esmasa.png"
+                  src="/images/logo esmasa new.JPG"
                   alt="ESMASA TRAVAUX"
-                  width={50}
-                  height={50}
+                  width={65}
+                  height={75}
                 />
-              <h3 className="mt-2">
+              {/* <h3 className="mt-2">
                 ESMASA TRAVAUX 
-              </h3>
+              </h3> */}
 
             </div>
           </Link>
