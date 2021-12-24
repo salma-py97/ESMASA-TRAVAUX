@@ -10,7 +10,7 @@ const YellowBreak = () => {
       <div className="py-5 d-flex justify-content-between align-items-center flex-column" >
       <h2 className="text-center mb-0">NOS PROJETS</h2>
       <hr className={hr} />
-      <h4 className="text-center mt-4">Consultez les projets qu'on a réalisé</h4>
+      <h4 className="text-center mt-4">Consultez les projets qu'on a réalisés</h4>
       <Link href="/projets" >
         <button className={`mt-4 ${btn} ${btn__outline} ${btn__wide}`}>NOS PROJETS</button>
       </Link>
