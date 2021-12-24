@@ -28,3 +28,7 @@
   width: 92px;
   text-align: center;
 }
+
+.button:hover {
+  font-weight: 600;
+}
