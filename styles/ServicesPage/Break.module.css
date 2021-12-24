@@ -1,0 +1,30 @@
+/* .bg {
+  background-image: url('https://preview.colorlib.com/theme/webuilder/img/work-bg.jpg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+} */
+
+.inner_bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+.bg {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("https://preview.colorlib.com/theme/webuilder/img/work-bg.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hr{
+  height: 3px;
+  background-color: white;
+  width: 92px;
+  text-align: center;
+}
