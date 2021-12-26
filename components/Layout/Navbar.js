@@ -27,6 +27,8 @@ const Navbar = () => {
 		menu_icon,
     active,
     logo,
+    logo1,
+    logo2,
     bg_transparent, 
     bg_dark,
     bars_scaled,
@@ -96,13 +98,15 @@ const Navbar = () => {
           <div className={`${navbar_container} ${nav_container} container-fluid px-3 px-md-5 d-flex align-items-center justify-content-between`}>
 
           <Link	href="/" className={`${navbar_logo}`} >
-            <div className={logo}  onClick={() => {setClick(false)}}>
+            <div className={isScrolled || isNotHome ? `${logo} ${logo2}` : `${logo} ${logo1}`}  onClick={() => {setClick(false)}}>
                 <Image
                   // src="/images/logo_esmasa.png"
-                  src="/images/logo esmasa new.JPG"
+                  // src="/images/logo esmasa new.JPG"
+                  src="/images/logo.png"
                   alt="ESMASA TRAVAUX"
-                  width={65}
-                  height={75}
+                  // width={click ? 65 : 85}
+                  // height={click ? 85 : 105}
+                  layout="fill"
                 />
               {/* <h3 className="mt-2">
                 ESMASA TRAVAUX 
