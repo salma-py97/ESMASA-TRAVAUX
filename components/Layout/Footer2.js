@@ -152,7 +152,7 @@ const Footer2 = () => {
 
 			<section className={`${copyright} py-2 bg-dark text-white`}>
 				<p className="text-center m-0">
-					Copyright &copy; 2021 | <Link href="/">ESMASA TRAVAUX</Link>. All
+					Copyright &copy; {new Date().getFullYear()} | <Link href="/">ESMASA TRAVAUX</Link>. All
 					Rights Reserved.
 				</p>
 			</section>
