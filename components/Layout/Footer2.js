@@ -31,16 +31,13 @@ const Footer2 = () => {
 				<section className={`px-5`}>
 					<div className="row justify-content-around align-items-top">
 						<div className="col-md-4">
-							<div className="d-flex justify-content-start align-items-end mt-5 mb-3">
+							<div className="d-flex justify-content-start align-items-end mt-5 mb-2">
 								<Image
-									src="/images/logo_esmasa.png"
+									src="/images/logo.png"
 									alt="ESMASA TRAVAUX"
-									width={50}
-									height={50}
+									width={60}
+									height={75}
 								/>
-								<h4 className="text-white my-0 ml-2 mr-0 p-0">
-									ESMASA TRAVAUX
-								</h4>
 							</div>
 
 							<p className="text-justify">
