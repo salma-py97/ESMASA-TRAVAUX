@@ -8,7 +8,7 @@ const Break = () => {
   return (
     <div className={`${content} my-5 container` }>
       <Link href="/">
-        <h2 className={`mb-4 fw-bold ${h2}`}><span className='text-primary'>ESMASA</span> <span className='text-danger'> Travaux</span></h2>
+        <h2 className={`mb-4 ${h2}`}>ESMASA  Travaux</h2>
       </Link>
       <h4 className={`${h4}`}>
       Brique par brique, nous transformons vos rêves en réalité.
