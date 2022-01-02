@@ -202,8 +202,9 @@ const contact = () => {
 								<option>Construction Bâtiment</option>
 								<option>Génie civil / Fondation</option>
 								<option>Revêtement / Étanchéité</option>
-								<option>Électricité / Climatisation</option>
+								<option>Travaux de Voirie</option>
 								<option>Travaux d'Aménagement</option>
+								<option>Travaux d'Eau Potable</option>
 								<option>Travaux d'assainissement</option>
 							</select>
 							<label className={label}>Choisissez un service</label>
