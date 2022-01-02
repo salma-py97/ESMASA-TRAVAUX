@@ -6,7 +6,7 @@ const APropos = () => {
   const {bg, hr, desc, title} = styles
   const {btn, btn__yellow, btn__dark} = buttonStyles
   return (
-    <div className={`py-5 d-flex justify-content-center align-items-center ${bg}`}>
+    <div className={`py-5 d-flex justify-content-center align-items-center ${bg}`} id='apropos'>
       <div className="row d-flex justify-content-between align-items-start container py-5">
         <div className="col-md-4 d-flex flex-column justify-content-center align-items-start">
           <h2 className={title} >À PROPOS</h2>

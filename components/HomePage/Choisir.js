@@ -23,7 +23,7 @@ const Choisir = () => {
 
 	return (
 		<div
-			className={`py-5 d-flex justify-content-center align-items-center ${bg}`}
+			className={`py-5 d-flex justify-content-center align-items-center ${bg}`} id="choisir"
 		>
 			<div
 				className={`container d-flex flex-column justify-content-center align-items-center ${content}`}
