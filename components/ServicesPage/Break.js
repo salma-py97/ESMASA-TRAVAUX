@@ -15,8 +15,8 @@ const YellowBreak = () => {
         <Link href="/projets" >
           <button className={`mt-4 ${button} ${btn} ${btn__outline} ${btn__wide}`}>NOS PROJETS</button>
         </Link>
-        <Link href="/contact" >
-          <button className={`mt-4 ${button} ${btn} ${btn__outline} ${btn__wide}`}>CONTACTEZ NOUS</button>
+        <Link href="/" >
+          <button className={`mt-4 ${button} ${btn} ${btn__outline} ${btn__wide}`}>POURQUOI NOUS?</button>
         </Link>
       </div>
     </div>
