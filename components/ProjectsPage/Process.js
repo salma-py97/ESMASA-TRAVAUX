@@ -47,7 +47,7 @@ const Process = () => {
               alt=""
             />
             <h1 className={`text-center text-warning mt-4 ${title}`}>02</h1>
-            <h5 className={h5}>APROBATION</h5>
+            <h5 className={h5}>APPROBATION</h5>
             <p className={`text-center text-dark`}>Tous les dossiers de construction sont soumis pour aprobation à des bureaux de controle de renom avant le début d'exécution. 
             {/* Suite à la mise au point définitive de la conception, nous constituons notre dossier de construction et nous le déposons auprès des bureaux de contrôle pour aprobation. */}
             </p>
