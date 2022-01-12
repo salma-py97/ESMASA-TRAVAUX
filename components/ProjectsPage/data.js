@@ -4,7 +4,7 @@ export const projectOne = {
   type: "Résaux d'assainissement",
   lieu: "Tanger",
   date: "1 an",
-  prestations: ["terrassement et pose de canalisations en béton armé", "terrassement et pose de canalisations en fonte ductile", "terrassement et pose de canalisations en PVC", "terrassement et pose de canalisations en PP Polypropylène", "terrassement et pose de canalisations pour drainage", "Réalisation des ouvrages en béton armé tel que: dalots, déversoirs d'orages, regards préfabriqués ou coulés sur place, réhabilitations des ouvrage annexes", "Travaux de réfections de voirie"]
+  prestations: ["Terrassement et pose de canalisations en béton armé", "Terrassement et pose de canalisations en fonte ductile", "Terrassement et pose de canalisations en PVC", "Terrassement et pose de canalisations en PP Polypropylène", "Terrassement et pose de canalisations pour drainage", "Réalisation des ouvrages en béton armé tel que: dalots, déversoirs d'orages, regards préfabriqués ou coulés sur place, réhabilitations des ouvrage annexes", "Travaux de réfections de voirie"]
 }
 export const projectTwo = {
   reverse: true,
