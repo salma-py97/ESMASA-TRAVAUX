@@ -264,7 +264,7 @@ const Choisir = () => {
 									buildings. */}
 									{/* Notre expertise est sollicitée pour un large éventail de projets, notamment la construction des bâtiments de grande ou petite taille et les travaux d'assainissement. */}
 									Parmi nos valeurs, l'implication et l'engagement citoyens de
-									ses employés. A cet égard, nous menons des actions fortes pour
+									nos employés. A cet égard, nous menons des actions fortes pour
 									l'insertion sociale et professionnelle dans nos divers
 									chantiers.
 								</p>
